@@ -12,7 +12,7 @@
             <div class="blog_main col-md-9">
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="date"><?php echo date("M");?> <p><?php echo date("d");?><p></p></span>
+                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
                         <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
@@ -46,40 +46,92 @@
                             sus habitantes por el este hacia la Ciudad de Mérida y el centro del país, y por
                             el oeste con la
                             Ciudad de Tovar y con la Ciudad de El Vigía y la frontera con Colombia.</p>
-
-                        <div class="read_btn">
-                            <a href="single-page.html">
-                                <button class="btn">view more</button>
-                            </a>
-                        </div>
                     </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="date">Jun <p>17<p></p></span>
-                        <span class="icon_date"><i class="fa fa-laptop"></i> </span>
+                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
-                        <h4><a href="single-page.html">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry </a></h4>
-                        <span>posted by <a href="#">Admin</a> in <a href="#">Wordpress</a> <a class="left" href="#"><i
-                                    class="fa fa-comment"></i>Comments</a> <a class="left" href="#"><i
-                                    class="fa fa-eye"></i>124 views</a></span>
+                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <h4>Montalbán</h4>
 
-                        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing</p>
+                        <p class="para">Es una de las más populosas zonas de la ciudad pues cuenta con un completo
+                            sistema de servicios
+                            públicos para todas las zonas residenciales que la conforman, es sede de la
+                            Universidad Politécnica
+                            Territorial Clever Ramirez y por ello ha venido creciendo incesantemente, cuenta
+                            además con un
+                            Comedor Popular, un Estadio de béisbol, el Polideportivo Italo de Philippis, la
+                            Iglesia de la Virgen
+                            del Carmen, la Plaza Montalbán y el Centro Cultural "Fundación Hacienda El
+                            Pilar", así como
+                            establecimientos comerciales.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="col-md-2 blog_date">
+                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                    </div>
+                    <div class="col-md-10 blog_left">
+                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
+                        <h4>Fernández Peña</h4>
 
-                        <div class="read_btn">
-                            <a href="single-page.html">
-                                <button class="btn">view more</button>
-                            </a>
-                        </div>
+                        <p class="para">Esta parroquia también es una zona residencial de la ciudad de Ejido, aquí tienen
+                            gran permanencia
+                            establecimientos comerciales, actualmente se están desarrollando grandes planes
+                            de construcción de
+                            viviendas en este sector y por ello ha crecido con rapidez, en esta parroquia
+                            funciona el terminal
+                            del Trolebús de Mérida que sirve de transporte masivo a quienes están en la
+                            ciudad de Ejido y
+                            necesitan trasladarse a Mérida.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="col-md-2 blog_date">
+                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                    </div>
+                    <div class="col-md-10 blog_left">
+                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <h4>Acequias</h4>
+
+                        <p class="para">Esta parroquia se erigió el 1881 y forma parte del área rural del municipio Campo
+                            Elías, tiene una
+                            superficie de 131 Km cuadrados y su altitud es de 2.560 msnm. La vida económica
+                            de esta localidad se
+                            desenvuelve en la producción derivada de la agricultura, el comercio y el
+                            turismo.
+                            Está integrada por aldeas que rodean la población de Acequias dentro de las que
+                            se pueden nombrar
+                            San Pedro, Boconoque, El Hatico, La Joya, El Potrero Mucusuru entre otros,
+                            cuenta también con
+                            centros de salud e instituciones educativas.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="col-md-2 blog_date">
+                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                    </div>
+                    <div class="col-md-10 blog_left">
+                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <h4>Jají</h4>
+
+                        <p class="para">Ubicada también en una zona rural del municipio, cuenta con una superficie de 164
+                            Kilómetros
+                            cuadrados, presentando una variación altitudinal entre 2.00 y 4.00 msnm. Fue
+                            creada en el año 1586 y
+                            está integrada por las comunidades de San Miguel de Jají, La Carbonera, El
+                            Paramito, La Cuchilla, El
+                            Chamizal, El Campanario, Loma del Carmen, La Playa y Mucumbanga. Cuenta con
+                            varias instituciones
+                            educativas, diversas cuencas hidrográficas y la dinámica económica de la
+                            parroquia está representada
+                            por las actividades pecuarias, agrícolas, lecheras y el auge turístico.</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -88,10 +140,10 @@
             <div class="col-md-3 blog_right">
                 <h4>Ads 125 x 125</h4>
                 <ul class="ads_nav list-unstyled">
-                    <li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
+                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
+                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
+                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
+                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
                     <div class="clearfix"></div>
                 </ul>
                 <ul class="tag_nav list-unstyled">
@@ -109,86 +161,9 @@
                     <li><a href="#">data</a></li>
                     <div class="clearfix"></div>
                 </ul>
-                <div class="news_letter">
-                    <h4>news letter</h4>
-
-                    <form>
-                        <input type="text" placeholder="Your email address">
-                        <input type="submit" value="subscribe">
-                    </form>
-                </div>
             </div>
             <div class="clearfix"></div>
         </div>
         <!-- end blog -->
-    </div>
-</div>
-<div class="footer_bg"><!-- start footer -->
-    <div class="container">
-        <div class="footer">
-            <div class="col-md-4 footer1_of_3">
-                <div class="f_logo">
-                    <a href="index.html"><img src="images/logo.png" alt=""/></a>
-                </div>
-                <p class="f_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley of type and scrambled it to make a type specimen book. It has survived not only five
-                    centuries, but also the leap into electronic typesetting</p>
-
-                <p>Phone:&nbsp;<span>(00) 222 666 444</span></p>
-                <span class="">Email:&nbsp;<a href="mailto:info@mycompany.com">info(at)mycompany.com</a></span>
-            </div>
-            <div class="col-md-2 footer1_of_3">
-                <h4>company</h4>
-                <ul class="list-unstyled f_list">
-                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#">Nullam nec sapien eget</a></li>
-                    <li><a href="#">Curabitur pellentesque</a></li>
-                    <li><a href="#">Mauris dictum neque</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                    <li><a href="#">Nullam nec sapien</a></li>
-                    <li><a href="#">Curabitur mauris tempor </a></li>
-                </ul>
-            </div>
-            <div class="col-md-2 footer1_of_3">
-                <h4>community</h4>
-                <ul class="list-unstyled f_list">
-                    <li><a href="#">Lorem ipsum dolor sit amet</a></li>
-                    <li><a href="#">Nullam nec sapien eget</a></li>
-                    <li><a href="#">Curabitur pellentesque</a></li>
-                    <li><a href="#">Mauris dictum neque</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit</a></li>
-                    <li><a href="#">Nullam nec sapien</a></li>
-                    <li><a href="#">Curabitur mauris tempor </a></li>
-                </ul>
-            </div>
-            <div class="col-md-4 footer_of_3">
-                <h4>from the <span>blog</span></h4>
-
-                <div class="blog_list">
-                    <div class="col-md-3 f_pic">
-                        <a href="blog.html"><img src="images/blog_pic1.jpg" alt="" class="img-responsive"/></a>
-                    </div>
-                    <div class="col-md-9 f_text">
-                        <a href="blog.html"><p>Lorem Ipsum is simply dummy text of the this printing and typesetting
-                                industry.</p></a>
-                        <span>26, may 2014</span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="blog_list">
-                    <div class="col-md-3 f_pic">
-                        <a href="blog.html"><img src="images/blog_pic2.jpg" alt="" class="img-responsive"/></a>
-                    </div>
-                    <div class="col-md-9 f_text">
-                        <a href="blog.html"><p>Lorem Ipsum is simply dummy text of the this printing and typesetting
-                                industry.</p></a>
-                        <span>17, June 2014</span>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>
     </div>
 </div>
