@@ -1,11 +1,7 @@
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
-            <h3 class="style pull-left">Portfolio</h3>
-            <ol class="breadcrumb pull-right">
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Portfolio</li>
-            </ol>
+            <h3 class="style pull-left">Parroquias</h3>
             <div class="clearfix"></div>
         </div>
     </div>
@@ -16,23 +12,40 @@
             <div class="blog_main col-md-9">
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="date">may <p>24<p></p></span>
-                        <span class="icon_date"><i class="fa fa-laptop"></i> </span>
+                        <span class="date"><?php echo date("M");?> <p><?php echo date("d");?><p></p></span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
-                        <h4><a href="single-page.html">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry </a></h4>
-                        <span>posted by <a href="#">Admin</a> in <a href="#">Wordpress</a> <a class="left" href="#"><i
-                                    class="fa fa-comment"></i>Comments</a> <a class="left" href="#"><i
-                                    class="fa fa-eye"></i>124 views</a></span>
+                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
+                        <h4>Matriz</h4>
 
-                        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived
-                            not only five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing</p>
+                        <p class="para">La Parroquia Matriz fue fundada por la Legislatura del Estado Soberano Guzmán,
+                            Sección Mérida, en
+                            1881. Forma parte del área urbana de la Ciudad de Ejido, capital del municipio.
+                            Tiene una superficie
+                            de 36 Km² una altitud promedio de 1.170 msnm.
+                            Está conformada por las comunidades José Adelmo Gutiérrez , Los Guaimaros, El
+                            Moral,
+                            Sanbuenaventura, El Palmo, Bella Vista, San Miguel, Asoprieto, Inrevi I, Inrevi
+                            II, Carlos Sánchez,
+                            Aguas Calientes, El Chamicero, San Martín y La Mesa del Tanque, entre otros.
+                            En el centro urbano de la parroquia se encuentra el Palacio Municipal,
+                            construido en 1940 y que
+                            sirve de sede a la Alcaldía y al Concejo Municipal, órganos Ejecutivo y
+                            Legislativo,
+                            respectivamente. Frente a esta edificación está la plaza Bolívar y el Santuario
+                            Diocesano de San
+                            Buenaventura, está también el Mercado Municipal de Ejido, el cual ofrece
+                            alimentos de diversas
+                            variedades, productos agrícolas, comidas típicas a propios y visitantes.
+                            Esta Parroquia posee un capital humano de profesionales graduados en
+                            universidades reconocidas e
+                            institutos de educación superior, así como también artistas en todos los
+                            géneros. Su vida económica
+                            transcurre en actividades comerciales, agrícolas e industriales. Sus vías de
+                            comunicación conectan a
+                            sus habitantes por el este hacia la Ciudad de Mérida y el centro del país, y por
+                            el oeste con la
+                            Ciudad de Tovar y con la Ciudad de El Vigía y la frontera con Colombia.</p>
 
                         <div class="read_btn">
                             <a href="single-page.html">
