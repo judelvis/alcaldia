@@ -119,3 +119,44 @@
         </div>
     </div>
 </div>
+
+<div class="main_btm1"><!-- start main_btm -->
+    <div class="container">
+        <div class="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1972.7569117719897!2d-71.24342490476678!3d8.546487784438106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1438035342187"
+                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="contact_main">
+                <div class="col-md-4 company_ad">
+                    <h2>Encuentranos:</h2>
+                    <address>
+                        <p>Avenida Bolivar, frente a la plaza Bolivar.</p>
+
+                        <p>Ejido Estado Merida</p>
+
+                        <p>Venezuela</p>
+
+                        <p>Telefono:(51) 221 666 444</p>
+
+                        <p>Email: <a href="jud.prog@gmail.com">alcaldia@gmail.com</a></p>
+
+                    </address>
+                </div>
+                <div class="col-md-8">
+                    <div class="contact-form">
+                        <h2>Contactenos</h2>
+
+                        <form method="post" action="contact-post.html">
+                            <input type="text" value="" id="nombre" name="nombre" placeholder="Nombre">
+                            <input type="text" value="" id="correo" name="correo" placeholder="Correo electronico">
+                            <input type="text" value="" id="asunto" name="asunto" placeholder="Asunto">
+                            <textarea id="mensaje" name="mensaje" onfocus="if(this.value == 'Su mensaje') this.value='';"
+                                      onblur="if(this.value == '') this.value='Su mensaje'" >Su mensaje</textarea>
+                            <span><input type="submit" value="Enviar"></span>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>

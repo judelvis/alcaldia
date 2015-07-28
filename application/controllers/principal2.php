@@ -22,75 +22,10 @@ class Principal2 extends CI_Controller {
     }
     function inicio() {
         $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $busqueda = $this->MPanel->listarNoticia ();
-        $data ['lst'] = $busqueda;
-        $data ['tit'] = __TITLE__;
-        $data ['js'] = 'principal';
-        $data ['slider'] = true;
-        $data['tipo'] = 0;
-        $this->load->view ( 'principal2/incluir/head', $data );
-        $this->load->view ( 'principal2/incluir/cab', $data );
-        $this->load->view ( 'principal2/inicio', $data );
-        $this->load->view ( 'principal2/incluir/pie', $data );
-    }
-
-    function principal() {
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $busqueda = $this->MPanel->listarNoticia ();;
-        $data ['lst'] = $busqueda ['lst'];
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Mas Recientes';
-        $data ['js'] = 'principal';
-        $data['tipo'] = 0;
-        $data ['lstTipo'] = $this->MPanel->listaTipo2 ();
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/principal', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
-    }
-    function contacto() {
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $data ['tit'] = 'Contactenos';
-        $data ['tb'] = 'Contactenos';
-        if(isset($_SESSION['idioma']) && $_SESSION['idioma']=='_i')$data ['tb'] = 'Contac';
-        $data ['js'] = 'principal';
-        $data ['lstTipo'] = $this->MPanel->listaTipo2 ();
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/contacto', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
-    }
-    function buscarTipo($tipo) {
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $busqueda = $this->MPanel->buscarTipo ( $tipo );
-        $data ['lst'] = $busqueda['lst'];
-        $data ['consulta'] = $busqueda ['query'];
-        $data ['tit'] = 'Categoria';
-        $data ['tb'] = $this -> MPanel -> mostrarTipo($tipo);
-        $data ['js'] = 'principal';
-        $data['tipo'] = $tipo;
-        $data ['lstTipo'] = $this->MPanel->listaTipo2 ();
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/principal', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
-    }
-
-    function consulta($ser=null) {
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $busqueda = $this->MPanel->consulta ( $ser );
-        $data ['lst'] = $busqueda ['lst'];
-        $data ['consulta'] = $busqueda ['query'];
-        $data ['tit'] = 'Todas Las Series';
-        $data ['tb'] = 'Todas Las Series';
-        if(isset($_SESSION['idioma']) && $_SESSION['idioma']=='_i')$data ['tb'] = 'All Series';
-        $data ['js'] = 'principal';
-        $data['tipo'] = 0;
-        $data ['lstTipo'] = $this->MPanel->listaTipo2 ();
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/principal', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/inicio' );
+        $this->load->view ( 'principal2/incluir/pie' );
     }
 
 
@@ -158,17 +93,36 @@ class Principal2 extends CI_Controller {
     /**
      * fuciones para municipio
      */
-    function municipio(){
+    function ubicacion(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Noticias';
-        $data ['js'] = 'municipio';
-        //$data ['slider'] = true;
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/ubicacion' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
 
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/municipio', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
+    function capital(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/capital' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function simbolos(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/simbolos' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function parroquias(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/parroquias' );
+        $this->load->view ( 'principal2/incluir/pie' );
     }
 
     /**

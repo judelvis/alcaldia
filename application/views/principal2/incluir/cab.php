@@ -9,17 +9,24 @@
                 <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
                 <nav>
                     <ul class="menu list-unstyled">
-                        <li class="activate"><a href="index.html">INICIO</a></li>
-                        <li><a href="about.html">MUNICIPIO</a></li>
-                        <li><a href="service.html">NOTICAS</a></li>
-                        <li><a href="portfolio.html">GOBIERNO MUNICIPAL</a>
+                        <li class="activate"><a href="<?php echo site_url("principal2");?>">INICIO</a></li>
+                        <li><a href="#">MUNICIPIO</a>
+                            <ul class="sub-menu list-unstyled">
+                                <li><a href="<?php echo site_url("principal2/ubicacion");?>">Ubicacion</a></li>
+                                <li><a href="<?php echo site_url("principal2/capital");?>">Capital</a></li>
+                                <li><a href="<?php echo site_url("principal2/simbolos");?>">Simbolos</a></li>
+                                <li><a href="<?php echo site_url("principal2/parroquias");?>">Parroquias</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">NOTICAS</a></li>
+                        <li><a href="#">GOBIERNO MUNICIPAL</a>
                             <ul class="sub-menu list-unstyled">
                                 <li>
-                                    <a href="portfolio.html">Alcalde</a></li>
-                                <li><a href="portfolio.html">Alcaldia</a>
+                                    <a href="#">Alcalde</a></li>
+                                <li><a href="#">Alcaldia</a>
                                     <ul class="list-unstyled">
-                                        <li><a href="portfolio.html">Sub-Menu 1</a></li>
-                                        <li><a href="portfolio.html">Sub-Menu 2</a></li>
+                                        <li><a href="#">Sub-Menu 1</a></li>
+                                        <li><a href="#">Sub-Menu 2</a></li>
                                     </ul>
                                 </li>
                             </ul>
