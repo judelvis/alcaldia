@@ -18,7 +18,7 @@
                                 <li><a href="<?php echo site_url("principal2/parroquias");?>">Parroquias</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">NOTICAS</a></li>
+                        <li><a href="<?php echo site_url("principal2/noticias");?>">NOTICAS</a></li>
                         <li><a href="#">GOBIERNO MUNICIPAL</a>
                             <ul class="sub-menu list-unstyled">
                                 <li>

@@ -39,32 +39,27 @@ class Principal2 extends CI_Controller {
     /**
      * funciones para noticias
      */
-    function noticia(){
+    function noticias(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $busqueda = $this->MPanel->listarNoticia ();
         $data ['lst'] = $busqueda;
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Noticias';
-        $data ['js'] = 'principal';
-
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/noticia', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
+        $data ['slider'] = true;
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/noticias' ,$data);
+        $this->load->view ( 'principal2/incluir/pie' );
     }
 
     function verNoticia($id){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $busqueda = $this->MPanel->verNoticia ($id);
         $data ['lst'] = $busqueda;
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Noticias';
-        $data ['js'] = 'principal';
+        $data ['slider'] = true;
 
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/verNoticia', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/verNoticia' ,$data);
+        $this->load->view ( 'principal2/incluir/pie' );
     }
     /**
      * funciones paginas
@@ -95,7 +90,6 @@ class Principal2 extends CI_Controller {
      * fuciones para municipio
      */
     function ubicacion(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -104,7 +98,6 @@ class Principal2 extends CI_Controller {
     }
 
     function capital(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -113,7 +106,6 @@ class Principal2 extends CI_Controller {
     }
 
     function simbolos(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -122,7 +114,6 @@ class Principal2 extends CI_Controller {
     }
 
     function parroquias(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -134,7 +125,6 @@ class Principal2 extends CI_Controller {
      * fuciones para alcalde
      */
     function biografia(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -143,7 +133,6 @@ class Principal2 extends CI_Controller {
     }
 
     function planGob(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -152,7 +141,6 @@ class Principal2 extends CI_Controller {
     }
 
     function primerEje(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/incluir/cab' );
@@ -161,7 +149,6 @@ class Principal2 extends CI_Controller {
     }
 
     function segundoEje(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -170,7 +157,6 @@ class Principal2 extends CI_Controller {
     }
 
     function tercerEje(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -179,44 +165,11 @@ class Principal2 extends CI_Controller {
     }
 
     function decla(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/decla' );
         $this->load->view ( 'principal2/incluir/pie' );
-    }
-
-    /**
-     * fuciones para alcaldia
-     */
-    function gobierno(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Gobierno';
-        $data ['js'] = 'gobierno';
-        $data ['slider'] = true;
-
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/gobierno', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
-    }
-
-    /**
-     * fuciones para municipio
-     */
-    function alcalde(){
-        $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $data ['tit'] = __TITLE__;
-        $data ['tb'] = 'Alcalde';
-        $data ['js'] = 'alcalde';
-        $data ['slider'] = true;
-
-        $this->load->view ( 'principal/incluir/head', $data );
-        $this->load->view ( 'principal/incluir/cab', $data );
-        $this->load->view ( 'principal/alcalde', $data );
-        $this->load->view ( 'principal/incluir/pie', $data );
     }
 
     /**

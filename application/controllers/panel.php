@@ -79,7 +79,8 @@ class Panel extends CI_Controller {
         $this -> load -> model('utilidades/mimagen', 'MImagen');
         $this -> load -> model('panel/mpanel', 'MPanel');
 
-        $valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/noticia') -> salvar(400,400,2);
+        //$valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/noticia') -> salvar(400,400,2);
+        $valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/noticia') -> salvar(400,200,2);
         $nombreImagen = $_FILES['imagen']['name'];
         $arr = array("imagen"=>$nombreImagen,"titulo"=>$_POST['titulo'],"descrip"=>$_POST['descrip'],"fecha"=>$_POST['fecha'],"enlace"=>$_POST['enlace'],"resumen"=>$_POST['resumen']);
         if($valor)echo $this -> MPanel -> registrarNoticia($arr);
