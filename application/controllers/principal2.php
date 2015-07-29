@@ -21,9 +21,9 @@ class Principal2 extends CI_Controller {
         $this->inicio();
     }
     function inicio() {
-        $data['slider'] = true;
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/inicio');
         $this->load->view ( 'principal2/incluir/pie' );
@@ -97,7 +97,8 @@ class Principal2 extends CI_Controller {
     function ubicacion(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/ubicacion' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -105,7 +106,8 @@ class Principal2 extends CI_Controller {
     function capital(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/capital' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -113,7 +115,8 @@ class Principal2 extends CI_Controller {
     function simbolos(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/simbolos' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -121,7 +124,8 @@ class Principal2 extends CI_Controller {
     function parroquias(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/parroquias' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -132,7 +136,8 @@ class Principal2 extends CI_Controller {
     function biografia(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/biografia' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -140,14 +145,16 @@ class Principal2 extends CI_Controller {
     function planGob(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/planGob' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
     function primerEje(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
-        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/incluir/cab' );
         $this->load->view ( 'principal2/primerEje' );
         $this->load->view ( 'principal2/incluir/pie' );
@@ -156,7 +163,8 @@ class Principal2 extends CI_Controller {
     function segundoEje(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/segundoEje' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -164,7 +172,8 @@ class Principal2 extends CI_Controller {
     function tercerEje(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/tercerEje' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
@@ -172,7 +181,8 @@ class Principal2 extends CI_Controller {
     function decla(){
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/decla' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
