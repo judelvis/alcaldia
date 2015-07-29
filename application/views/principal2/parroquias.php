@@ -12,10 +12,10 @@
             <div class="blog_main col-md-9">
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/matriz.jpg" alt="" class="img-responsive"/></a>
                         <h4>Matriz</h4>
 
                         <p class="para">La Parroquia Matriz fue fundada por la Legislatura del Estado Soberano Guzmán,
@@ -51,10 +51,10 @@
                 </div>
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/montalban.jpg" alt="" class="img-responsive"/></a>
                         <h4>Montalbán</h4>
 
                         <p class="para">Es una de las más populosas zonas de la ciudad pues cuenta con un completo
@@ -73,10 +73,10 @@
                 </div>
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic1.jpg" alt="" class="img-responsive"/></a>
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/fernandez.jpg" alt="" class="img-responsive"/></a>
                         <h4>Fernández Peña</h4>
 
                         <p class="para">Esta parroquia también es una zona residencial de la ciudad de Ejido, aquí tienen
@@ -93,10 +93,10 @@
                 </div>
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/acequias.jpg" alt="" class="img-responsive"/></a>
                         <h4>Acequias</h4>
 
                         <p class="para">Esta parroquia se erigió el 1881 y forma parte del área rural del municipio Campo
@@ -115,10 +115,10 @@
                 </div>
                 <div class="blog_list">
                     <div class="col-md-2 blog_date">
-                        <span class="icon_date"><i class="fa fa-plus-circle"></i> </span>
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
                     </div>
                     <div class="col-md-10 blog_left">
-                        <a href="single-page.html"><img src="<?php echo __MAQ2__;?>images/blog-pic2.jpg" alt="" class="img-responsive"/></a>
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/jaji.jpg" alt="" class="img-responsive"/></a>
                         <h4>Jají</h4>
 
                         <p class="para">Ubicada también en una zona rural del municipio, cuenta con una superficie de 164
@@ -132,6 +132,31 @@
                             educativas, diversas cuencas hidrográficas y la dinámica económica de la
                             parroquia está representada
                             por las actividades pecuarias, agrícolas, lecheras y el auge turístico.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="col-md-2 blog_date">
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
+                    </div>
+                    <div class="col-md-10 blog_left">
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/lamesa.jpg" alt="" class="img-responsive"/></a>
+                        <h4>La Mesa</h4>
+
+                        <p class="para">Esta parroquia tiene una superficie de 39 kilómetros cuadrados y una altitud de 1.400 msnm. Conformada por las comunidades de La Mesa, La Enfadosa, La Vega, La Quebrada, El Pozo, Sulbarán y La González. La producción agrícola se centra en el cultivo de caña de azúcar, cría de aves, ganado porcino y vacuno. Cuenta  con algunos espacios públicos y varias instituciones educativas.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="blog_list">
+                    <div class="col-md-2 blog_date">
+                        <span class="icon_date"><i class="fa fa-bookmark-o"></i> </span>
+                    </div>
+                    <div class="col-md-10 blog_left">
+                        <a href="#"><img src="<?php echo __MAQ2__;?>images/sanjose.jpg" alt="" class="img-responsive"/></a>
+                        <h4>San José</h4>
+
+                        <p class="para">Ubicada en una zona rural del municipio Campo Elías, cuenta con una superficie de 11 kilómetros cuadrados y una altitud promedio de 2.280 msnm, integrada por las aldeas Mucumpiz, Mucumbí, Cuatro Esquinas, La Mesa, Mucusán, El Trompillo y el Voladero.
+                            Posee un rico contexto ideográfico y la vida económica está basada en la producción de frutos, hortalizas, granos, aves, entro otros. Cuenta con instituciones educativas y ambulatorios para la asistencia médica de los habitantes de la zona.</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

@@ -126,6 +126,57 @@ class Principal2 extends CI_Controller {
     }
 
     /**
+     * fuciones para alcalde
+     */
+    function biografia(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/biografia' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function planGob(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/planGob' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function primerEje(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/primerEje' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function segundoEje(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/segundoEje' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function tercerEje(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/tercerEje' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function decla(){
+        $this->load->model ( 'panel/mpanel', 'MPanel' );
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab' );
+        $this->load->view ( 'principal2/decla' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    /**
      * fuciones para alcaldia
      */
     function gobierno(){

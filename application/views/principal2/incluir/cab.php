@@ -22,13 +22,17 @@
                         <li><a href="#">GOBIERNO MUNICIPAL</a>
                             <ul class="sub-menu list-unstyled">
                                 <li>
-                                    <a href="#">Alcalde</a></li>
-                                <li><a href="#">Alcaldia</a>
+                                    <a href="#">Alcalde</a>
                                     <ul class="list-unstyled">
-                                        <li><a href="#">Sub-Menu 1</a></li>
-                                        <li><a href="#">Sub-Menu 2</a></li>
+                                        <li><a href="<?php echo site_url("principal2/biografia");?>">Biografía</a></li>
+                                        <li><a href="<?php echo site_url("principal2/planGob");?>">Plan de Gobierno</a></li>
+                                        <li><a href="<?php echo site_url("principal2/primerEje");?>">Primer Eje: El bienestar de la población</a></li>
+                                        <li><a href="<?php echo site_url("principal2/segundoEje");?>">Segundo Eje: Empoderamiento y emprendamiento</a></li>
+                                        <li><a href="<?php echo site_url("principal2/tercerEje");?>">Tercer Eje: Ciudadanía y confianza social</a></li>
+                                        <li><a href="<?php echo site_url("principal2/decla");?>">Declaración Final</a></li>
                                     </ul>
                                 </li>
+                                <li><a href="#">Alcaldia</a></li>
                             </ul>
                         </li>
                         <!--<li><a href="blog.html">BLOG</a></li>-->
