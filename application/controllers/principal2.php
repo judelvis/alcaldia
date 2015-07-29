@@ -21,10 +21,11 @@ class Principal2 extends CI_Controller {
         $this->inicio();
     }
     function inicio() {
+        $data['slider'] = true;
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $this->load->view ( 'principal2/incluir/head' );
-        $this->load->view ( 'principal2/incluir/cab' );
-        $this->load->view ( 'principal2/inicio' );
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/inicio');
         $this->load->view ( 'principal2/incluir/pie' );
     }
 

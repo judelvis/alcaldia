@@ -3,7 +3,7 @@
     <div class="container">
         <div class="header">
             <div class="logo">
-                <a href="index.html"><h1 style="color: #FFFFFF">Alcaldia Ejido</h1></a>
+                <img src="<?php echo  __MAQ2__;?>images/logo.png" alt=""/>
             </div>
             <div class="h_menu">
                 <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
@@ -45,6 +45,7 @@
         </div>
     </div>
 </div>
+<?php if(isset($slider)){?>
 <div id="fwslider"><!-- start slider -->
     <div class="slider_container">
         <div class="slide">
@@ -95,4 +96,5 @@
     <div class="slidePrev"><span></span></div>
     <div class="slideNext"><span></span></div>
 </div>
+<?php }?>
 <!--/slider -->
