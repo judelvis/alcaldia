@@ -43,7 +43,7 @@ class Principal2 extends CI_Controller {
         $this->load->model ( 'panel/mpanel', 'MPanel' );
         $busqueda = $this->MPanel->listarNoticia ();
         $data ['lst'] = $busqueda;
-        $data ['slider'] = true;
+        ///$data ['slider'] = true;
         $this->load->view ( 'principal2/incluir/head' );
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/noticias' ,$data);

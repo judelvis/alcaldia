@@ -20,7 +20,7 @@
 }
 
 #fwslider .slidePrev {
-    background:#E8645A;
+    background:#8bc34a;
     width:50px;
     height:50px;
     position: absolute;
@@ -37,7 +37,7 @@
 	cursor: pointer;
 }
 #fwslider .slideNext {
-    background:#E8645A;
+    background:#8bc34a;
     width:50px;
     height:50px;
     position: absolute;
@@ -73,7 +73,7 @@
 #fwslider .progress {
     height:4px;
     width:0%;
-    background-color: #E8645A;
+    background-color: #8bc34a;
     float:left;
 }
 
@@ -97,7 +97,7 @@
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 4.5em;
-	background: #E8645A;
+	background: #8bc34a;
 	padding: 15px 30px;
 	font-style: normal;
 	border-radius: 4px;

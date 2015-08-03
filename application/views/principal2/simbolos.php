@@ -96,7 +96,7 @@
                             Cordero.<br></p>
                     </div>
                     <div class="images_1_of_4 bg1">
-                        <span class="bg"><i class="fa fa-music"></i> </span>
+                        <a href="#"><img src="<?php echo __IMG__;?>coro.jpg" alt="" class="img-responsive"/></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>

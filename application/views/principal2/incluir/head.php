@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
 <head>
+    <meta charset=utf-8>
     <title>Alcaldia De Ejido</title>
     <!-- Bootstrap -->
     <link href="<?php echo __MAQ2__;?>css/bootstrap.min.css" rel='stylesheet' type='text/css' />

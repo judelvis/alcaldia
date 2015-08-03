@@ -50,6 +50,10 @@
     <div class="slider_container">
         <div class="slide">
             <!-- Slide image -->
+            <img src="<?php echo __MAQ2__?>images/slider0.jpg">
+        </div>
+        <div class="slide">
+            <!-- Slide image -->
             <img src="<?php echo __MAQ2__?>images/slider1.jpg">
             <!-- /Slide image -->
             <!-- Texts container -->
@@ -80,7 +84,7 @@
             </div>
         </div>
         <div class="slide">
-            <img src="<?php echo __MAQ__?>images/sly1.jpg">
+            <img src="<?php echo __MAQ2__?>images/slider2.jpg">
 
             <div class="slide_content">
                 <div class="slide_content_wrap">
