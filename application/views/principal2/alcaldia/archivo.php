@@ -31,14 +31,30 @@
                                                 <p class="para">El Archivo Municipal, es una Unidad Técnica de Apoyo Administrativo y de
                                                     Servicio Público, con jerarquía de Departamento, está adscrita al Gerente General.</p>
                                             </div>
-                                            <div class="col-md-12 blog_left">
+                                            <div class="col-md-12 span1_of_3">
                                             <h4>Objetivo</h4>
                                                 <p class="para">Garantizar la conservación  del Fondo Documental  que genera la Alcaldía, para
                                                     facilitar el servicio de revisión y consultas por los ciudadanos o autoridades competentes.</p>
                                             </div>
-                                            <div class="col-md-12 blog_left">
-                                                <h4>Estructura</h4>
-                                                <p class="para"></p>
+                                            <div class="col-md-12 span1_of_3">
+                                                <h4>Estructura:</h4>
+                                                <ul class="list-unstyled nav_list">
+                                                    <p class="para">Está constituida en una sola unidad administrativa y la conforman:</p>
+                                                    <li><a href="#!">Jefatura.</a></li>
+                                                    <li><a href="#!">Asistente de archivo.</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-12 span1_of_3">
+                                                <h4>Funciones de acuerdo a la ordenanza:</h4>
+                                                <ul class="list-unstyled nav_list">
+                                                    <li><a href="#!">Definir la política archivística del Municipio</a></li>
+                                                    <li><a href="#!">Nullam nec sapien eget metus</a></li>
+                                                    <li><a href="#!">Curabitur pellentesque mauris tempor </a></li>
+                                                    <li><a href="#!">Mauris dictum neque ornare nibh feugiat</a></li>
+                                                    <li><a href="#!">Lorem ipsum dolor sit amet, consectetur</a></li>
+                                                    <li><a href="#!">Nullam nec sapien eget metus</a></li>
+                                                    <li><a href="#!">Curabitur pellentesque mauris tempor </a></li>
+                                                </ul>
                                             </div>
                                             <div class="clearfix"></div>
                                         </div>
