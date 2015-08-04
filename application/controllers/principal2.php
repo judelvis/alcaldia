@@ -205,6 +205,14 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
+    function archivo(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/archivo' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
     /**
      * Cerrar Sesion del sistema
      */

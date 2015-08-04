@@ -18,7 +18,7 @@
                         <h3>Archivo Municipal</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/atractivos"); ?>">ver
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/archivo"); ?>">ver
                                 mas</a>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                         <h3>Comisión de Contrataciones Públicas</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/atractivos"); ?>">ver
+                            <a class="btn btn-2 active" href="#">ver
                                 mas</a>
                         </div>
                     </div>
