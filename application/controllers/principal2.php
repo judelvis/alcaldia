@@ -198,7 +198,7 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/turismo/gerencias' );
+        $this->load->view ( 'principal2/gerencias' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
