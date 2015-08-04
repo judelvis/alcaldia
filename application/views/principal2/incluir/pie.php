@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer1">
             <div class="copy pull-left">
-                <p class="link"><span><a href="http://www.mamonsoft.com">
+                <p class="link"><span><a href="<?php echo __LOCALWWW__?>/index.php/panel">
                             Mamonsoft</a></span></p>
             </div>
             <div class="soc_icons pull-right">

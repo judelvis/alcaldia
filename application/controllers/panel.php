@@ -179,7 +179,7 @@ class Panel extends CI_Controller {
 		if(isset($id) && $id !=''){
 			$data['id']=$id;
 		}
-		$data['titulo'] = 'Cargar Imagenes a Serie';
+		$data['titulo'] = 'Cargar Imagenes a Servicio';
 		
 		$this->load->view('panel/incluir/cabecera',$data);
 		$this->load->view('panel/incluir/menu');
@@ -190,9 +190,9 @@ class Panel extends CI_Controller {
 		$this -> load -> model('utilidades/mimagen', 'MImagen');
 		$this -> load -> model('panel/mpanel', 'MPanel');
 	
-		$valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/galeria') -> salvar();
+		$valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/galeria') -> salvar(680,480,2);
 		$nombreImagen = $_FILES['imagen']['name'];
-        $arr = array("oidcat"=>$_POST['oidcat'],"oidser"=>$_POST['oidser'],"imagen"=>$nombreImagen,"titulo"=>$_POST['titulo'],"detalle"=>$_POST['detalle'],"titulo_i"=>$_POST['titulo_i'],"detalle_i"=>$_POST['detalle_i'],"fecha"=>$_POST['fecha'],"enlace"=>$_POST['enlace']);
+        $arr = array("oidcat"=>$_POST['oidcat'],"oidser"=>$_POST['oidser'],"imagen"=>$nombreImagen,"titulo"=>$_POST['titulo'],"detalle"=>$_POST['detalle'],"fecha"=>$_POST['fecha'],"enlace"=>$_POST['enlace']);
 		if($valor)echo $this -> MPanel -> registrarGaleria($arr);
 		else echo "No se pudo guardar la imagen".$valor['mensaje'];
 		//echo "si";

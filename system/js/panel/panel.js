@@ -45,7 +45,7 @@ function cmbSerie() {
 			$.each(json, function(item, valor) {
 				$("#serie").append(new Option(item+' | '+valor, item, false, true));
 			});
-			$("#serie").append(new Option('Seleccione Serie', 0, false, true));
+			$("#serie").append(new Option('Seleccione Servicio', 0, false, true));
 		}
 	});
 }
@@ -74,14 +74,12 @@ function registrar() {
     cadena.append('oidcat', $('#categoria').val());
     cadena.append('titulo', $('#titulo').val());
     cadena.append('detalle', $('#detalle').val());
-    cadena.append('titulo_i', $('#titulo_i').val());
-    cadena.append('detalle_i', $('#detalle_i').val());
     cadena.append('fecha', $('#fecha').val());
     cadena.append('enlace', $('#enlace').val());
 	
 	if($('#serie').val() == 0){
 		
-		alert('Debe elegir una serie');
+		alert('Debe elegir un servicio');
 		
 		return false;
 	}
@@ -139,8 +137,6 @@ function limpiar(){
     $('#oidcat').val('');
     $('#titulo').val('');
     $('#detalle').val('');
-    $('#titulo_i').val('');
-    $('#detalle_i').val('');
     $('#fecha').val('');
     $('#enlace').val('');
 }

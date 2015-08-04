@@ -17,13 +17,13 @@
 			<div id="div-1" class="accordion-body collapse in body">
 				<form class="form-horizontal">
 					<div class="form-group">
-						<label for="autosize" class="control-label col-lg-2">Serie</label>
+						<label for="autosize" class="control-label col-lg-2">Servicio</label>
 						<div class="col-lg-2">
 							<?php if(isset($id)){?>
-							<input type="text" placeholder="Serie" class="form-control"
+							<input type="text" placeholder="Servicio" class="form-control"
 								name="serie" id="serie" value='<?php echo $id;?>' />
 							<?php }else{?>
-							<select data-placeholder="Seleccione Serie"
+							<select data-placeholder="Seleccione Sevicio"
 								class="form-control " id='serie' name='serie'
 								onchange="consultar();"></select>
 							<?php }?>
@@ -49,18 +49,6 @@
                         <label for="autosize" class="control-label col-lg-2">Detalle</label>
                         <div class="col-lg-6">
                             <textarea id="detalle" name="detalle" class="form-control"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="autosize" class="control-label col-lg-2">Titulo2</label>
-                        <div class="col-lg-2">
-                            <input type="text" placeholder="Titulo" class="form-control"
-                                   name="titulo_i" id="titulo_i"  />
-                        </div>
-                        <label for="autosize" class="control-label col-lg-2">Detalle2</label>
-                        <div class="col-lg-6">
-                            <textarea id="detalle_i" name="detalle_i" class="form-control"></textarea>
                         </div>
                     </div>
 
