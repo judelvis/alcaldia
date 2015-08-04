@@ -1,16 +1,3 @@
-<script>
-    function muestraParra(id){
-        $("#parra"+id).show();
-        $("#ocu"+id).show();
-        $("#btn"+id).hide();
-    }
-
-    function ocultaParra(id){
-        $("#parra"+id).hide();
-        $("#ocu"+id).hide();
-        $("#btn"+id).show();
-    }
-</script>
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">

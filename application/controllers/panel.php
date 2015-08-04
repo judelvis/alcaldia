@@ -190,7 +190,7 @@ class Panel extends CI_Controller {
 		$this -> load -> model('utilidades/mimagen', 'MImagen');
 		$this -> load -> model('panel/mpanel', 'MPanel');
 	
-		$valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/galeria') -> salvar(680,480,2,$_POST['oidser']);
+		$valor = $this -> MImagen -> cargar($_FILES, BASEPATH . 'img/galeria') -> salvar(680,480,2);
 		$nombreImagen = $_FILES['imagen']['name'];
         $arr = array("oidser"=>$_POST['oidser'],"imagen"=>$nombreImagen,"titulo"=>$_POST['titulo'],"detalle"=>$_POST['detalle'],"fecha"=>$_POST['fecha'],"enlace"=>$_POST['enlace']);
 		if($valor)echo $this -> MPanel -> registrarGaleria($arr);
