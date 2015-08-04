@@ -64,6 +64,7 @@ class Principal2 extends CI_Controller {
     /**
      * funciones paginas
      */
+
     function busca_imagenes($oidp = null,$cat) {
         $this->load->model ( 'utilidades/mimagen', 'MImagen' );
         if (isset ( $_POST ['oidp'] ))
@@ -184,6 +185,8 @@ class Principal2 extends CI_Controller {
     }
 
     function atractivos(){
+        $this -> load -> model('panel/mpanel', 'MPanel');
+        $data['lst'] = $this ->MPanel -> consultarServiciosCat(4);
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );

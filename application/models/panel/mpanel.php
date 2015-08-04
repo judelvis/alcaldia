@@ -113,6 +113,17 @@ join(Select * from portafolio
         }
         return $porta;
     }
+
+    function consultarServiciosCat($cat){
+        $consulta = $this -> db -> query("Select * From servicio join (select * from portafolio group by oidser)as porta on servicio.id = porta.oidser WHERE  oidcat=".$cat );
+        $cant = $consulta -> num_rows();
+        if($cant > 0){
+            $porta = $consulta -> result();
+        }else{
+            $porta = 0;
+        }
+        return $porta;
+    }
 	
 	function eliminarGaleria($arr) {
 		if ($this->db->query ( "DELETE FROM portafolio WHERE oid=" . $arr [0] )) {
