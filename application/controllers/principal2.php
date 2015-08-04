@@ -72,7 +72,7 @@ class Principal2 extends CI_Controller {
         // echo $oidp;
     }
 
-    function mostrarSerie($oidser=null,$oidcat=null){
+    function mostrarServicio($oidser=null,$oidcat=null){
         $this -> load -> model('panel/mpanel', 'MPanel');
         //print_R($_POST);
         if($oidser == null) {
@@ -188,6 +188,17 @@ class Principal2 extends CI_Controller {
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/turismo/atractivos' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    /*
+     * funciones para alcaldia
+     */
+    function gerencias(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/turismo/gerencias' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 

@@ -28,7 +28,15 @@
                                         <li><a href="<?php echo site_url("principal2/planGob");?>">Plan de Gobierno</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Alcaldia</a></li>
+                                <li><a href="#">Alcaldia</a>
+                                    <ul class="sub-menu list-unstyled">
+                                        <li><a href="<?php echo site_url("principal2/concurso");?>">Concurso y lisitaciones</a></li>
+                                        <li><a href="<?php echo site_url("principal2/gerencias");?>">Gerencias</a></li>
+                                        <li><a href="<?php echo site_url("principal2/institutos");?>">Institutos Autonomos</a></li>
+                                        <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Ordenanzas y Decretos</a></li>
+                                        <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Tramites y Servicios</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <!--<li><a href="blog.html">BLOG</a></li>-->

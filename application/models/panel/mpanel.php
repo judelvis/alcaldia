@@ -103,8 +103,8 @@ join(Select * from portafolio
 
     function consultarGaleriaSerie($arr){
         $cat = '';
-        //if($arr['oidcat']!=0) $cat =  " and oidcat=".$arr['oidcat'];
-        $consulta = $this -> db -> query("Select * From portafolio join serie on serie.id = portafolio.oidser WHERE  oidser=".$arr['oidser'] . $cat );
+        if($arr['oidcat']!=0) $cat =  " and oidcat=".$arr['oidcat'];
+        $consulta = $this -> db -> query("Select * From portafolio join servicio on servicio.id = portafolio.oidser WHERE  oidser=".$arr['oidser'] . $cat );
         $cant = $consulta -> num_rows();
         if($cant > 0){
             $porta = $consulta -> result();
