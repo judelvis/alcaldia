@@ -15,7 +15,7 @@
                         <span class="active"><i class="fa fa-camera-retro"></i></span>
                         <h3>Atractivos</h3>
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/atractivos");?>">ver mas</a>
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/serviciosCat/4");?>">ver mas</a>
                         </div>
                     </div>
                 </div>

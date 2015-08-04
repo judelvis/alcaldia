@@ -184,13 +184,14 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
-    function atractivos(){
+    function serviciosCat($id){
         $this -> load -> model('panel/mpanel', 'MPanel');
-        $data['lst'] = $this ->MPanel -> consultarServiciosCat(4);
+        $data['lst'] = $this ->MPanel -> consultarServiciosCat($id);
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
+        $data['titulo'] = "titulo";
         $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/turismo/atractivos' );
+        $this->load->view ( 'principal2/turismo/paratodos' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 

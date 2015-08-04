@@ -1,7 +1,7 @@
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
-            <h3 class="style pull-left">Atractivos</h3>
+            <h3 class="style pull-left"><?php $titulo;?></h3>
             <div class="clearfix"></div>
         </div>
     </div>
