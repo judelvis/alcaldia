@@ -69,14 +69,11 @@
                 <div class="myloader"></div>
                 <!-- CONTENT -->
                 <ul class="allinone_carousel_list">
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic1.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic2.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic3.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic4.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic5.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic3.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic4.jpg" alt="" class="img-responsive"/></li>
-                    <li><img src="<?php echo __MAQ2__;?>images/slider_pic5.jpg" alt="" class="img-responsive"/></li>
+                    <?php for($i=1;$i<=9;$i++){
+                        echo'
+                            <li><img src="'.__IMG__.'pr'.$i.'.jpg" alt="" class="img-responsive"/></li>
+                        ';
+                    }?>
 
                 </ul>
             </div>

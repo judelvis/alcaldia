@@ -141,9 +141,9 @@ class Principal2 extends CI_Controller {
     }
 
     function primerEje(){
+        $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/incluir/cab' );
         $this->load->view ( 'principal2/primerEje' );
         $this->load->view ( 'principal2/incluir/pie' );
     }
