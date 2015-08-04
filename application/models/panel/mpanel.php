@@ -92,7 +92,7 @@ join(Select * from portafolio
 				$i ++;
 				$rImg = '<img src="' . __IMG__ . 'galeria/' . $fila->imagen . '" width=200></img> ';
 				// $rImg = "epa";
-				$cuep [$i] = array ("1" => $fila->oid,"2" => $fila->imagen,"3" => $fila->oidcat,"4" => $fila->oidser,"5" => "","6" => $rImg);
+				$cuep [$i] = array ("1" => $fila->oid,"2" => $fila->imagen,"3" => $fila->oidser,"4" => "","5" => $rImg);
 			}
 			$obj = array ("Cabezera" => $this->cab (),"Cuerpo" => $cuep,"Paginador" => 10,"Origen" => "json","msj" => "SI");
 		} else {
@@ -103,7 +103,7 @@ join(Select * from portafolio
 
     function consultarGaleriaSerie($arr){
         $cat = '';
-        if($arr['oidcat']!=0) $cat =  " and oidcat=".$arr['oidcat'];
+        //if($arr['oidcat']!=0) $cat =  " and oidcat=".$arr['oidcat'];
         $consulta = $this -> db -> query("Select * From portafolio join serie on serie.id = portafolio.oidser WHERE  oidser=".$arr['oidser'] . $cat );
         $cant = $consulta -> num_rows();
         if($cant > 0){
@@ -133,12 +133,10 @@ join(Select * from portafolio
 		$cabe = array ();
 		$cabe [1] = array ("titulo" => "","oculto" => 1);
 		$cabe [2] = array ("titulo" => "Imagen","atributos" => "width:30%;","buscar" => 0);
-        $cabe [3] = array ("titulo" => "Categoria");
-        $cabe [4] = array ("titulo" => "Serie");
-		$cabe [5] = array ("titulo" => "#","tipo" => "bimagen","funcion" => 'eliminarGaleria',"parametro" => "1,2",	"ruta" => __IMG__ . "quitar.png",
+        $cabe [3] = array ("titulo" => "Serie");
+		$cabe [4] = array ("titulo" => "#","tipo" => "bimagen","funcion" => 'eliminarGaleria',"parametro" => "1,2",	"ruta" => __IMG__ . "quitar.png",
 				"atributos" => "text-align:center;" );
-		$cabe [6
-        ] = array ("titulo" => "Ver","atributos" => "width:40%");
+		$cabe [5] = array ("titulo" => "Ver","atributos" => "width:40%");
 		return $cabe;
 	}
 
@@ -295,7 +293,7 @@ join(Select * from portafolio
 	}
 	function modificarSerie($arr = null, $id) {
 		$this->db->where ( 'id', $id );
-		$ban = $this->db->update ( 'serie', $arr );
+		$ban = $this->db->update ( 'servicio', $arr );
 		if ($ban) {
 			return "Se modifico con exito";
 		}

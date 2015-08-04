@@ -28,11 +28,6 @@
 								onchange="consultar();"></select>
 							<?php }?>
                         </div>
-                        <label for="autosize" class="control-label col-lg-2">Categoria</label>
-                        <div class="col-lg-2">
-                                <select data-placeholder="Seleccione categoria"
-                                        class="form-control " id='categoria' name='categoria'></select>
-						</div>
                         <label for="autosize" class="control-label col-lg-2">Fecha</label>
                         <div class="col-lg-2">
                             <input type="text" placeholder="Fecha" class="form-control"

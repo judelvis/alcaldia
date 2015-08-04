@@ -4,6 +4,7 @@
  */
 
 $(function() {
+    cmbTipo();
     $("#fecha").datepicker({
         changeMonth: true,
         changeYear: true
@@ -35,6 +36,19 @@ $(function() {
 	listarSerie();
 });
 
+function cmbTipo() {
+    $.ajax({
+        url : sUrlP + 'cmbTipo',
+        dataType : 'JSON',
+        success : function(json) {//alert(json);
+            $.each(json, function(item, valor) {
+                $("#categoria").append(new Option(valor, item, false, true));
+            });
+            $("#categoria").append(new Option('Seleccione Categoria', 0, false, true));
+        }
+    });
+}
+
 function limpiar(){
 	$("#nombre").val('');
 	$("#descrip").val('');
@@ -49,6 +63,7 @@ function Registrar() {
 	cadena.append('nombre', nombre);
 	cadena.append('descrip',descrip);
 	cadena.append('fecha',fecha);
+    cadena.append('oidcat', $('#categoria').val());
 
 	if(nombre == '' || descrip == '' || fecha == '' ){
 		alert("Debe ingresar todos los datos");

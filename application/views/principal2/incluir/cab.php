@@ -61,7 +61,7 @@
                     <!-- Text description -->
                     <p class="description">Conoce el municipio<br>
                     Atractivos<br>Pueblos Turísticos<br>Gastronomía<br>Trapiches<br>
-                    <a href="#" >Ver mas</a></p>
+                    <a href="<?php echo site_url("principal2/turismo");?>" >Ver mas</a></p>
                     <!-- /Text description -->
                 </div>
             </div>

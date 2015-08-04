@@ -172,6 +172,25 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
+    /*
+     * funciones de turismo para todos
+     */
+    function turismo(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/turismo' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function atractivos(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/turismo/atractivos' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
     /**
      * Cerrar Sesion del sistema
      */

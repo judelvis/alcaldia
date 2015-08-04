@@ -3,7 +3,7 @@
 -- Server version:               5.5.37-0ubuntu0.13.10.1 - (Ubuntu)
 -- Server OS:                    debian-linux-gnu
 -- HeidiSQL version:             7.0.0.4053
--- Date/time:                    2015-07-24 10:53:48
+-- Date/time:                    2015-08-04 15:53:52
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -16,14 +16,18 @@ CREATE TABLE IF NOT EXISTS `categoria` (
   `oid` int(10) NOT NULL AUTO_INCREMENT,
   `categoria` varchar(50) COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`oid`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- Dumping data for table alcaldia.categoria: ~3 rows (approximately)
 /*!40000 ALTER TABLE `categoria` DISABLE KEYS */;
 INSERT INTO `categoria` (`oid`, `categoria`) VALUES
 	(1, 'HOTELES'),
 	(2, 'POSADAS'),
-	(3, 'RESTAURANTE');
+	(3, 'RESTAURANTE'),
+	(4, 'atractivos'),
+	(5, 'pueblos'),
+	(6, 'gastronomia'),
+	(8, 'trapiche');
 /*!40000 ALTER TABLE `categoria` ENABLE KEYS */;
 
 
@@ -54,7 +58,6 @@ INSERT INTO `noticias` (`oid`, `imagen`, `titulo`, `descrip`, `enlace`, `fecha`,
 DROP TABLE IF EXISTS `portafolio`;
 CREATE TABLE IF NOT EXISTS `portafolio` (
   `oid` int(11) NOT NULL AUTO_INCREMENT,
-  `oidcat` int(11) NOT NULL,
   `oidser` int(11) NOT NULL,
   `imagen` text COLLATE utf8_spanish_ci NOT NULL,
   `titulo` text COLLATE utf8_spanish_ci NOT NULL,
@@ -63,12 +66,15 @@ CREATE TABLE IF NOT EXISTS `portafolio` (
   `modificado` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `enlace` text COLLATE utf8_spanish_ci NOT NULL,
   PRIMARY KEY (`oid`),
-  KEY `oidcat` (`oidcat`),
   KEY `oidser` (`oidser`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- Dumping data for table alcaldia.portafolio: ~0 rows (approximately)
 /*!40000 ALTER TABLE `portafolio` DISABLE KEYS */;
+INSERT INTO `portafolio` (`oid`, `oidser`, `imagen`, `titulo`, `detalle`, `fecha`, `modificado`, `enlace`) VALUES
+	(2, 1, '145f8c0_vzla (2).jpg', 'img1', 'det1', '2015-08-04', '2015-08-04 14:03:44', ''),
+	(3, 1, '157_big.jpg', 'img2', 'dddd', '2015-08-04', '2015-08-04 14:14:26', ''),
+	(4, 1, '194ddadbbdb616fb525b5072e500c09df.jpg', 'reer', 'cccvcx', '2015-08-04', '2015-08-04 14:14:55', '');
 /*!40000 ALTER TABLE `portafolio` ENABLE KEYS */;
 
 
@@ -76,18 +82,21 @@ CREATE TABLE IF NOT EXISTS `portafolio` (
 DROP TABLE IF EXISTS `servicio`;
 CREATE TABLE IF NOT EXISTS `servicio` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `oidcat` int(11) NOT NULL DEFAULT '0',
   `nombre` text COLLATE utf8_spanish_ci NOT NULL,
   `descrip` text COLLATE utf8_spanish_ci NOT NULL,
   `fecha` date NOT NULL,
   `modificado` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `estatus` tinyint(4) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+  PRIMARY KEY (`id`),
+  KEY `oidcat` (`oidcat`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- Dumping data for table alcaldia.servicio: ~1 rows (approximately)
 /*!40000 ALTER TABLE `servicio` DISABLE KEYS */;
-INSERT INTO `servicio` (`id`, `nombre`, `descrip`, `fecha`, `modificado`, `estatus`) VALUES
-	(1, 'Venezuela de Antier', 'Este parque temático tardó tres años en ser construido, fue el 31 de julio de 1991, cuando su propietario Alexis Montilla abrió sus puertas al público,  La Venezuela de Antier es un  atractivo turístico que rememora lo que fue la Venezuela de los años 30. Durante el recorrido podrán conocer representaciones de varios estados del país y observar shows artísticos que recuerdan la época en la que el país era gobernado por la férrea dictadura del general Juan Vicente Gómez. Cada estado cuenta con una infraestructura distinta, adaptada a los primeros años del siglo XX donde encontrarán personajes, objetos, música y representaciones artísticas tradicionales de lo que fue Venezuela hace un siglo.  Una gran colección de vehículos antiguos, documentos, vestuarios y retratos forman parte de este parque que permite a Venezolanos y extranjeros viajar en el tiempo.', '2015-07-22', '2015-07-22 09:21:52', 0);
+INSERT INTO `servicio` (`id`, `oidcat`, `nombre`, `descrip`, `fecha`, `modificado`, `estatus`) VALUES
+	(1, 1, 'Venezuela de Antier', 'Este parque temático tardó tres años en ser construido, fue el 31 de julio de 1991, cuando su propietario Alexis Montilla abrió sus puertas al público,  La Venezuela de Antier es un  atractivo turístico que rememora lo que fue la Venezuela de los años 30. Durante el recorrido podrán conocer representaciones de varios estados del país y observar shows artísticos que recuerdan la época en la que el país era gobernado por la férrea dictadura del general Juan Vicente Gómez. Cada estado cuenta con una infraestructura distinta, adaptada a los primeros años del siglo XX donde encontrarán personajes, objetos, música y representaciones artísticas tradicionales de lo que fue Venezuela hace un siglo.  Una gran colección de vehículos antiguos, documentos, vestuarios y retratos forman parte de este parque que permite a Venezolanos y extranjeros viajar en el tiempo.', '0000-00-00', '2015-08-04 13:45:51', 0),
+	(2, 4, 'Páramo de Los Conejos', 'Es uno de los atractivos turísticos naturales más destacados del municipio Campo Elías, ubicado a más de 3600msnm  este páramo  alberga nuestro Oso Frontino.\nEl ascenso hacía el lugar es sostenido, se requiere tracción. Todo el camino es de piedras sueltas, aún  se observa el empedrado que data de La Colonia. En el Páramo de Los Conejos  es posible  desarrollar el turismo de aventura y naturaleza, donde los visitantes podrán recorrer los paisajes del lugar, como la laguna de Las Iglesias, laguna Los Puentes, el páramo El Tambor y la formación rocosa La Cara del Indio, entre otros atractivos.\nColindando con El Páramo de los Conejos, está  El Páramo el Campanario, allí se erige una aldea conformada por 40 casas donde viven más de 80  personas, José Mateus “Chencho”, nativo de la zona y auxiliar de enfermería desde hace 37 años, comentó que ya son cuatro las generaciones que han habitado el lugar durante un siglo. Actualmente el páramo cuenta con una escuela, un ambulatorio y electrificación a través de paneles solares.\nEl cultivo de papa, cebollín entre otras hortalizas y la cría de truchas es el sustento económico de los habitantes de esta zona que está rodeada de ríos y lagunas.', '2015-08-04', '2015-08-04 15:46:31', 0);
 /*!40000 ALTER TABLE `servicio` ENABLE KEYS */;
 
 

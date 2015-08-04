@@ -5,7 +5,6 @@
 
 $(function() {
 	cmbSerie();
-	cmbTipo();
     $("#fecha").datepicker({
         changeMonth: true,
         changeYear: true
@@ -50,18 +49,6 @@ function cmbSerie() {
 	});
 }
 
-function cmbTipo() {
-    $.ajax({
-        url : sUrlP + 'cmbTipo',
-        dataType : 'JSON',
-        success : function(json) {//alert(json);
-            $.each(json, function(item, valor) {
-                $("#categoria").append(new Option(valor, item, false, true));
-            });
-            $("#categoria").append(new Option('Seleccione Categoria', 0, false, true));
-        }
-    });
-}
 
 function registrar() {
 	//alert(1);
@@ -71,7 +58,6 @@ function registrar() {
 
 	cadena.append('imagen', imagen);
 	cadena.append('oidser', $('#serie').val());
-    cadena.append('oidcat', $('#categoria').val());
     cadena.append('titulo', $('#titulo').val());
     cadena.append('detalle', $('#detalle').val());
     cadena.append('fecha', $('#fecha').val());
@@ -118,7 +104,7 @@ function consultar(){//alert(1);
 		processData : false,
 		cache : false,
 		dataType : "json",
-		success : function(json) {
+		success : function(json) {//alert(json);
 			if(json['msj'] == 'SI'){
 				Grid = new TGrid(json, 'reporte', "");
 				Grid.SetNumeracion(true);

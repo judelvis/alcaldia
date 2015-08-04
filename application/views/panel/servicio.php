@@ -38,6 +38,11 @@
                             <input type="text" placeholder=""
                                    class="form-control" name="fecha" id="fecha" />
                         </div>
+                        <label for="autosize" class="control-label col-lg-2">Categoria</label>
+                        <div class="col-lg-2">
+                            <select data-placeholder="Seleccione categoria"
+                                    class="form-control " id='categoria' name='categoria'></select>
+                        </div>
 
                     </div>
 					<a href="#" class="btn btn-primary btn-lg" onclick="Registrar();">Registrar</a>

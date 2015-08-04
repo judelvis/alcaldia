@@ -26,8 +26,10 @@ class MImagen extends CI_Model {
 	}
 	function evaluar() {
 	}
-	function salvar($tam1,$tam2,$metodo) {
-		$this->ruta = $this->directorio . '/' . $this->nombre;
+	function salvar($tam1,$tam2,$metodo,$id=null) {
+        $this->ruta = $this->directorio . '/' . $this->nombre;
+        /*if($id==null)$this->ruta = $this->directorio . '/' . $this->nombre;
+		else $this->ruta = $this->directorio . '/' . $id.$this->nombre;*/
 		if (! move_uploaded_file ( $this->temporal, $this->ruta )) {
 			$arr = FALSE;
 		} else {
