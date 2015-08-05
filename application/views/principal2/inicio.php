@@ -3,19 +3,18 @@
         <div class="main_grid">
             <div class="top_grid"><!-- start top_grid -->
                 <div class="col-md-12 span1_of_1">
-                    <center><h1>Trabajo y compromiso</h1></center>
+                    <center><h1>Municipio Campo Elías tierra del dulce aroma de la caña</h1></center>
                 </div>
                 <div class="clearfix"></div>
             </div>
             <div class="span_of_4"><!-- start span_of_4 -->
                 <div class="col-md-3 span1_of_4">
                     <div class="span4_of_list">
-                        <span class="active"><i class="fa fa-building-o"></i></span>
+                        <span><i class="fa fa-home"></i></span>
 
                         <h3>Catastro</h3>
 
-                        <p>Contenido</p>
-
+                        <br>
                         <div class="read_more">
                             <a class="btn btn-2 active" href="single-page.html">ver mas</a>
                         </div>
@@ -26,9 +25,7 @@
                         <span><i class="fa fa-money"></i></span>
 
                         <h3>En que invertimos</h3>
-
-                        <p>Conozca lo que se esta haciendo con los recursos del estado</p>
-
+                        <br>
                         <div class="read_more">
                             <a class="btn  btn-2b" href="single-page.html">ver mas</a>
                         </div>
@@ -40,7 +37,17 @@
 
                         <h3>Solicitud en linea</h3>
 
-                        <p>Ayudas, constancias, referencias y otros.</p>
+                        <br>
+                        <div class="read_more">
+                            <a class="btn btn-2b" href="single-page.html">ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 span1_of_4">
+                    <div class="span4_of_list">
+                        <span><i class="fa fa-picture-o"></i></span>
+
+                        <h3>Turismo para todos</h3>
 
                         <div class="read_more">
                             <a class="btn btn-2b" href="single-page.html">ver mas</a>
@@ -60,7 +67,7 @@
 <div class="main1_bg"><!-- start main1 -->
     <div class="container">
         <div class="main slider_text texxt-center">
-            <h4>titulo</h4>
+            <h4>Trabajo y compromiso</h4>
         </div>
     </div>
     <!-- start banner -->
