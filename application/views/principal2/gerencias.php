@@ -167,7 +167,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Comisión de Contrataciones Públicas</h3>
-
+                        <br><br><br>
                         <div class="read_more">
                             <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerencias/comisiones"); ?>">ver mas</a>
                         </div>
@@ -178,7 +178,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>concejo local de planificación pública</h3>
-
+                        <br><br><br>
                         <div class="read_more">
                             <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/concejo"); ?>">ver mas</a>
                         </div>
@@ -200,7 +200,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Coordinación General de Seguridad Ciudadana</h3>
-
+<br><br>
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/coordinacionsegu"); ?>">ver mas</a>
                         </div>
@@ -218,7 +218,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Registros</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/registros"); ?>">ver mas</a>
                         </div>
@@ -229,7 +229,6 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Secretaria ejecutiva</h3>
-
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/secretaria"); ?>">ver mas</a>
                         </div>
@@ -240,7 +239,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Sindicatura</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/sindicatura"); ?>">ver mas</a>
                         </div>

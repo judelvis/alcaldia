@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-md-3 span1_of_4">
                         <div class="span4_of_list">
-                            <span><i class="fa fa-sitemap"></i></span>
+                            <span><i class="fa fa-group"></i></span>
 
                             <h3>Taller de atencion al cliente</h3>
 
@@ -52,10 +52,10 @@
                     </div>
                     <div class="col-md-3 span1_of_4">
                         <div class="span4_of_list">
-                            <span><i class="fa fa-sitemap"></i></span>
+                            <span><i class="fa fa-female"></i></span>
 
                             <h3>Taller de camareras</h3>
-
+                            <br>
                             <div class="read_more">
                                 <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/atencion"); ?>">ver mas</a>
                             </div>
@@ -63,10 +63,10 @@
                     </div>
                     <div class="col-md-3 span1_of_4">
                         <div class="span4_of_list">
-                            <span><i class="fa fa-sitema"></i></span>
+                            <span><i class="fa fa-male"></i></span>
 
                             <h3>Taller de mesoneros</h3>
-
+                            <br>
                             <div class="read_more">
                                 <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciageral"); ?>">ver mas</a>
                             </div>
