@@ -124,6 +124,16 @@ join(Select * from portafolio
         }
         return $porta;
     }
+
+    function nombreCat($cat){
+        $query = $this->db->query("select * from categoria where oid=".$cat);
+        $resul = $query -> result();
+        $nombre = '';
+        foreach($resul as $fila){
+            $nombre = $fila->categoria;
+        }
+        return $nombre;
+    }
 	
 	function eliminarGaleria($arr) {
 		if ($this->db->query ( "DELETE FROM portafolio WHERE oid=" . $arr [0] )) {

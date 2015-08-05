@@ -24,7 +24,7 @@
                         <span><i class="fa fa-picture-o"></i></span>
                         <h3>Pueblos Turísticos </h3>
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos");?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/serviciosCat/5");?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                         <span><i class="fa fa-columns"></i></span>
                         <h3>Gastronomía</h3>
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro");?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/serviciosCat/6");?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <h3>Trapiches</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche");?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/serviciosCat/8");?>">ver mas</a>
                         </div>
                     </div>
                 </div>

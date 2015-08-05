@@ -1,7 +1,7 @@
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
-            <h3 class="style pull-left"><?php $titulo;?></h3>
+            <h3 class="style pull-left"><?php echo $titulo;?></h3>
             <div class="clearfix"></div>
         </div>
     </div>
@@ -20,7 +20,7 @@
 
                         <p class="para">'.$ls->descrip.'</p>
                         <div class="col-md-2 span1_of_2" id="btn1">
-                            <a class="btn" href="#!" onclick="muestraParra(1);">ver mas</a>
+                            <a class="btn" href="#!" >Imagenes</a>
                         </div>
                         <p class="para" id="parra1" style="display: none;">
                         </p>
@@ -32,14 +32,34 @@
                 ?>
             </div>
             <div class="col-md-3 blog_right">
-                <h4>Ads 125 x 125</h4>
-                <ul class="ads_nav list-unstyled">
-                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
-                    <li><a href="#"><img src="<?php echo __MAQ2__?>images/ads_pic.jpg" alt=""> </a></li>
-                    <div class="clearfix"></div>
-                </ul>
+                <h4><a href="<?php echo site_url("principal2/turismo");?>" class="btn">Turismo Para Todos</a></h4>
+                <div class="main_grid">
+                    <div class="span_of_1"><!-- start span_of_4 -->
+                        <div class="col-md-3 span1_of_4">
+                            <div class="span4_of_list">
+                                <a href="<?php echo site_url("principal2/serviciosCat/4");?>"><span><i class="fa fa-camera-retro"></i></span>Atractivos</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 span1_of_4">
+                            <div class="span4_of_list">
+                                <a href="<?php echo site_url("principal2/serviciosCat/5");?>"><span><i class="fa fa-picture-o"></i></span>Pueblos </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 span1_of_4">
+                            <div class="span4_of_list">
+                                <a href="<?php echo site_url("principal2/serviciosCat/6");?>"><span><i class="fa fa-columns"></i></span>Gastronomía</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 span1_of_4">
+                            <div class="span4_of_list">
+                                <a href="<?php echo site_url("principal2/serviciosCat/8");?>"><span><i class="fa fa-tumblr"></i></span>Trapiches</a>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- end span_of_4 -->
+                </div>
                 <ul class="tag_nav list-unstyled">
                     <h4>tags</h4>
                     <li class="active"><a href="#">awesome</a></li>

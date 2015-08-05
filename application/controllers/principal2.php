@@ -189,7 +189,7 @@ class Principal2 extends CI_Controller {
         $data['lst'] = $this ->MPanel -> consultarServiciosCat($id);
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
-        $data['titulo'] = "titulo";
+        $data['titulo'] = $this -> MPanel -> nombreCat($id);
         $this->load->view ( 'principal2/incluir/cab',$data );
         $this->load->view ( 'principal2/turismo/paratodos' );
         $this->load->view ( 'principal2/incluir/pie' );
@@ -198,7 +198,7 @@ class Principal2 extends CI_Controller {
     /*
      * funciones para alcaldia
      */
-    function gerencias(){
+    function gerencias($formulario=null){
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
