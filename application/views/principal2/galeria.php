@@ -81,7 +81,7 @@
                 <div class="portfolio logo1" data-cat="logo">
                     <div class="portfolio-wrapper">
                         <div class="fancyDemo">
-                            <a rel="group" title="" href="' . __IMG__ . 'galeria/medio/' . $ls->imagen . '"><img src="' . __IMG__ . 'galeria/medio/' . $ls->imagen . '" alt="" class="img-responsive"/></a>
+                            <a rel="group" title="" href="' . __IMG__ . 'galeria/' . $ls->imagen . '"><img src="' . __IMG__ . 'galeria/medio/' . $ls->imagen . '" alt="" class="img-responsive"/></a>
                         </div>
                     </div>
                 </div>';
