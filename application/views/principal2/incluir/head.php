@@ -145,36 +145,5 @@
                 return this;
             }
         }(jQuery));
-
-        $(document).ready(function() {
-
-            $('.google').percentPie({
-                width: 100,
-                trackColor: "E2534B",
-                barColor: "76C7C0",
-                barWeight: 20,
-                endPercent: .9,
-                fps: 60
-            });
-
-            $('.moz').percentPie({
-                width: 100,
-                trackColor: "E2534B",
-                barColor: "76C7C0",
-                barWeight: 20,
-                endPercent: .75,
-                fps: 60
-            });
-
-            $('.safari').percentPie({
-                width: 100,
-                trackColor: "E2534B",
-                barColor: "#76C7C0",
-                barWeight: 20,
-                endPercent: .5,
-                fps: 60
-            });
-
-        });
     </script>
 </head>

@@ -73,19 +73,18 @@ class Principal2 extends CI_Controller {
         // echo $oidp;
     }
 
-    function mostrarServicio($oidser=null,$oidcat=null){
+    function mostrarServicio($oidser=null){
         $this -> load -> model('panel/mpanel', 'MPanel');
-        //print_R($_POST);
         if($oidser == null) {
-            $arr = $_POST;
-        }else{
-            $arr['oidser'] = $oidser;
-            $arr['oidcat'] = $oidcat;
+            $oidser = $_POST['oidser'];
         }
-        $datos['lst'] = $this -> MPanel -> consultarGaleriaSerie($arr);
-        //print("<pre>");
-        //print_R($datos);
-        $this->load->view ( 'principal/galeria', $datos );
+        $data['lst'] = $this -> MPanel -> consultarGaleriaSerie($oidser);
+        $data ['slider'] = true;
+
+        $this->load->view ( 'principal2/incluir/head' );
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/galeria' ,$data);
+        $this->load->view ( 'principal2/incluir/pie' );
     }
     /**
      * fuciones para municipio

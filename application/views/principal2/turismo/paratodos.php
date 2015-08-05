@@ -20,7 +20,7 @@
 
                         <p class="para">'.$ls->descrip.'</p>
                         <div class="col-md-2 span1_of_2" id="btn1">
-                            <a class="btn" href="#!" >Imagenes</a>
+                            <a class="btn" href="'.site_url("principal2/mostrarServicio/".$ls->oidser).'" >Imagenes</a>
                         </div>
                         <p class="para" id="parra1" style="display: none;">
                         </p>
