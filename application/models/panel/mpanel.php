@@ -101,10 +101,8 @@ join(Select * from portafolio
 		return json_encode ( $obj );
 	}
 
-    function consultarGaleriaSerie($arr){
-        $cat = '';
-        if($arr['oidcat']!=0) $cat =  " and oidcat=".$arr['oidcat'];
-        $consulta = $this -> db -> query("Select * From portafolio join servicio on servicio.id = portafolio.oidser WHERE  oidser=".$arr['oidser'] . $cat );
+    function consultarGaleriaSerie($oidser){
+        $consulta = $this -> db -> query("Select * From portafolio join servicio on servicio.id = portafolio.oidser WHERE  oidser=".$oidser);
         $cant = $consulta -> num_rows();
         if($cant > 0){
             $porta = $consulta -> result();
