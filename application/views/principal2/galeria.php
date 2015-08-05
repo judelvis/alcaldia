@@ -77,7 +77,7 @@
         <?php
         if(isset ($descrip)){
             echo '<div class="blog"><!-- start blog -->
-            <div class="blog_main col-md-9">
+            <div class="blog_main col-md-12">
 
                 <div class="blog_list">
                     <div class="col-md-12 blog_left">

@@ -106,6 +106,10 @@
 	-o-border-radius: 4px;
 }
 
+#fwslider a{
+    color: #fff0f0;
+}
+
 #fwslider .description { /* Slider Description Style */
 	text-align: center;
 	color: #ffffff;

@@ -1,6 +1,7 @@
 <body>
 <div class="header_bg">
     <div class="container">
+        <!-- inicio header-->
         <div class="header">
             <div class="logo">
                 <img src="<?php echo  __MAQ2__;?>images/logo.png" alt=""/>
@@ -18,7 +19,7 @@
                                 <li><a href="<?php echo site_url("principal2/parroquias");?>">Parroquias</a></li>
                             </ul>
                         </li>
-                        <li><a href="<?php echo site_url("principal2/noticias");?>">NOTICAS</a></li>
+                        <li><a href="<?php echo site_url("principal2/noticias");?>">NOTICIAS</a></li>
                         <li><a href="#">GOBIERNO MUNICIPAL</a>
                             <ul class="sub-menu list-unstyled">
                                 <li>
@@ -46,7 +47,7 @@
                 <script src="<?php echo __MAQ2__?>js/menu.js" type="text/javascript"></script>
             </div>
             <div class="clearfix"></div>
-        </div>
+        </div>  <!-- fin header-->
     </div>
 </div>
 <?php if(isset($slider)){?>
@@ -67,8 +68,11 @@
                     <h4 class="title">Turismo para todos!</h4>
                     <!-- /Text title -->
                     <!-- Text description -->
-                    <p class="description">Conoce el municipio<br>
-                    Atractivos<br>Pueblos Turísticos<br>Gastronomía<br>Trapiches<br>
+                    <p class="description">Conoce el municipio
+                        <br><a  href="<?php echo site_url("principal2/serviciosCat/4");?>">Atractivos</a>
+                        <br><a  href="<?php echo site_url("principal2/serviciosCat/5");?>">Pueblos Turísticos</a>
+                        <br><a  href="<?php echo site_url("principal2/serviciosCat/6");?>">Gastronomía</a>
+                        <br><a  href="<?php echo site_url("principal2/serviciosCat/8");?>">Trapiches</a><br>
                     <a href="<?php echo site_url("principal2/turismo");?>" >Ver mas</a></p>
                     <!-- /Text description -->
                 </div>
