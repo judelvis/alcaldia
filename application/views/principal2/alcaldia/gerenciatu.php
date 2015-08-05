@@ -29,7 +29,7 @@
                 <div class="span_of_4"><!-- start span_of_4 -->
                     <div class="col-md-3 span1_of_4">
                         <div class="span4_of_list">
-                            <span><i class="fa fa-sitemap"></i></span>
+                            <span><i class="fa fa-ambulance "></i></span>
 
                             <h3>Curso de 1EROS Auxilios</h3>
 
@@ -63,7 +63,7 @@
                     </div>
                     <div class="col-md-3 span1_of_4">
                         <div class="span4_of_list">
-                            <span><i class="fa fa-sitemap"></i></span>
+                            <span><i class="fa fa-sitema"></i></span>
 
                             <h3>Taller de mesoneros</h3>
 

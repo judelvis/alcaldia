@@ -17,7 +17,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Archivo Municipal</h3>
-
+                        <br>
                         <div class="read_more">
                             <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerencias/archivo"); ?>">ver
                                 mas</a>
@@ -29,7 +29,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Auditoria Interna</h3>
-
+                        <br>
                         <div class="read_more">
                             <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/auditoria"); ?>">ver mas</a>
                         </div>
@@ -51,7 +51,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Gerencia General</h3>
-
+                        <br>
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciageral"); ?>">ver mas</a>
                         </div>
@@ -67,7 +67,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Gerencia de Cultura</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerencias/gerenciacul"); ?>">ver
                                 mas</a>
@@ -79,7 +79,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Gerencia de Turismo</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciatu"); ?>">ver mas</a>
                         </div>
@@ -140,7 +140,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>GERENCIA DE PLANIFICACIÓN Y PRESUPUESTO</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciaplapre"); ?>">ver mas</a>
                         </div>
@@ -151,7 +151,7 @@
                         <span><i class="fa fa-sitemap"></i></span>
 
                         <h3>Gerencia de Recursos Humanos</h3>
-
+                        <br><br>
                         <div class="read_more">
                             <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciarehu"); ?>">ver mas</a>
                         </div>
