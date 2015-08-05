@@ -34,7 +34,7 @@
                                         <li><a href="<?php echo site_url("principal2/gerencias");?>">Gerencias</a></li>
                                         <li><a href="<?php echo site_url("principal2/institutos");?>">Institutos Autonomos</a></li>
                                         <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Ordenanzas y Decretos</a></li>
-                                        <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Tramites y Servicios</a></li>
+                                        <li><a href="<?php echo site_url("principal2/tramites");?>">Tramites y Servicios</a></li>
                                     </ul>
                                 </li>
                             </ul>

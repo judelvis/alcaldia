@@ -1,7 +1,7 @@
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
-            <h3 class="style pull-left">Turismo Para Todos</h3>
+            <h3 class="style pull-left">Gerencias</h3>
 
             <div class="clearfix"></div>
         </div>
@@ -30,7 +30,7 @@
                         <h3>Auditoria Interna</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/auditoria"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <h3>Antencion al ciudadano</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/atencion"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         <h3>Gerencia General</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gerenciageral"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@
                         <h3>Gerencia de Cultura</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/atractivos"); ?>">ver
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerenciacul"); ?>">ver
                                 mas</a>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                         <h3>Gerencia de Turismo</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerenciatu"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         <h3>Gerencia de servicios generales</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gerenciaserge"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <h3>Gerencia de Administración y Finanzas</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gerenciaadfi"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                         <h3>gerencia de desarrollo humano y educación</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/atractivos"); ?>">ver
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerenciadhe"); ?>">ver
                                 mas</a>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         <h3>gerencia de infraestructura y ordenamiento territorial</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerenciaiot"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
                         <h3>GERENCIA DE PLANIFICACIÓN Y PRESUPUESTO</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gerenciaplapre"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                         <h3>Gerencia de Recursos Humanos</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gerenciarehu"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -168,8 +168,7 @@
                         <h3>Comisión de Contrataciones Públicas</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="#">ver
-                                mas</a>
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/comisiones"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +179,7 @@
                         <h3>concejo local de planificación pública</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/concejo"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +190,7 @@
                         <h3>coordinación general de comunicación social protocolo e informatica</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/coordinacionspi"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +201,7 @@
                         <h3>Coordinación General de Seguridad Ciudadana</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/coordinacionsegu"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +219,7 @@
                         <h3>Registros</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/pueblos"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/registros"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +230,7 @@
                         <h3>Secretaria ejecutiva</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/gastro"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/secretaria"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -242,7 +241,7 @@
                         <h3>Sindicatura</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/trapiche"); ?>">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/sindicatura"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>

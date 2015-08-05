@@ -121,8 +121,7 @@
 <div class="main_btm1"><!-- start main_btm -->
     <div class="container">
         <div class="contact">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1972.7569117719897!2d-71.24342490476678!3d8.546487784438106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1438035342187"
-                    width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1972.7583105353199!2d-71.24290465145113!3d8.54621745258272!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa37f1bb2880f8abe!2sAlcald%C3%ADa+Municipio+Campo+Elias!5e0!3m2!1ses-419!2sin!4v1438747186989" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <div class="contact_main">
                 <div class="col-md-4 company_ad">
                     <h2>Encuentranos:</h2>

@@ -214,6 +214,157 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
+    function auditoria(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/auditoria' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function atencion(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/atencion' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciageral(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciageral' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciacul(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciacul' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciatu(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciatu' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciaserge(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciaserge' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciaadfi(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciaadfi' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciadhe(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciadhe' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciaiot(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciaiot' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciaplapre(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciaplapre' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function gerenciarehu(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/gerenciarehu' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function comisiones(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/comisiones' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function concejo(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/concejo' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function coordinacionspi(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/coordinacionspi' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function coordinacionsegu(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/coordinacionsegu' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function registros(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/registros' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function secretaria(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/secretaria' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function sindicatura(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/sindicatura' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function tramites(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/tramites' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
     /**
      * Cerrar Sesion del sistema
      */
