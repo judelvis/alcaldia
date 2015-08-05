@@ -74,20 +74,36 @@
 </div>
 <div class="main_btm1"><!-- start main_btm -->
     <div class="container">
-        <div class="portfolio_main">
-            <div id="portfoliolist">
-                <?php foreach($lst as $ls) {
-                    echo '
-                <div class="portfolio logo1" data-cat="logo">
-                    <div class="portfolio-wrapper">
-                        <div class="fancyDemo">
-                            <a rel="group" title="" href="' . __IMG__ . 'galeria/' . $ls->imagen . '"><img src="' . __IMG__ . 'galeria/medio/' . $ls->imagen . '" alt="" class="img-responsive"/></a>
-                        </div>
+        <?php
+        if(isset ($descrip)){
+            echo '<div class="blog"><!-- start blog -->
+            <div class="blog_main col-md-9">
+
+                <div class="blog_list">
+                    <div class="col-md-12 blog_left">
+                        <p class="para">'.$lst[0]->descrip.'</p>
                     </div>
-                </div>';
-                }?>
+                    <div class="clearfix"></div>
+                </div>
             </div>
-            <div class="clearfix"></div>
-        </div>
+
+            ';
+        }
+        ?>
+            <div class="portfolio_main">
+                <div id="portfoliolist">
+                    <?php foreach($lst as $ls) {
+                        echo '
+                                <div class="portfolio logo1" data-cat="logo">
+                                    <div class="portfolio-wrapper">
+                                        <div class="fancyDemo">
+                                                <a rel="group" title="" href="' . __IMG__ . 'galeria/' . $ls->imagen . '"><img src="' . __IMG__ . 'galeria/medio/' . $ls->imagen . '" alt="" class="img-responsive"/></a>
+                                        </div>
+                                    </div>
+                                </div>';
+                    }?>
+                </div>
+                <div class="clearfix"></div>
+            </div>
     </div>
 </div>

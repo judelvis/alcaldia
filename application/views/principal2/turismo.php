@@ -70,6 +70,12 @@
             <div class="col-md-4 span1_of_3">
                 <h4>Hoteles</h4>
                 <ul class="list-unstyled nav_list">
+                    <?php if(count($hotel)!=0){
+                        foreach($lst as $ls){
+                            echo '<li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>';
+                        }
+                    }
+                    ?>
                     <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
                     <li><a href="#">Nullam nec sapien eget metus</a></li>
                     <li><a href="#">Curabitur pellentesque mauris tempor </a></li>

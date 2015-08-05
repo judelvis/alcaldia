@@ -16,7 +16,7 @@
 
                         <br>
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="single-page.html">ver mas</a>
+                            <a class="btn btn-2 active" href="#!">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@
                         <h3>En que invertimos</h3>
                         <br>
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="single-page.html">ver mas</a>
+                            <a class="btn  btn-2b" href="#!">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
 
                         <br>
                         <div class="read_more">
-                            <a class="btn btn-2b" href="single-page.html">ver mas</a>
+                            <a class="btn btn-2b" href="#!">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <h3>Turismo para todos</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2b" href="single-page.html">ver mas</a>
+                            <a class="btn btn-2b" href="<?php echo site_url("principal2/turismo");?>">ver mas</a>
                         </div>
                     </div>
                 </div>

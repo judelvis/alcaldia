@@ -73,13 +73,14 @@ class Principal2 extends CI_Controller {
         // echo $oidp;
     }
 
-    function mostrarServicio($oidser=null){
+    function mostrarServicio($oidser=null,$descrip=null){
         $this -> load -> model('panel/mpanel', 'MPanel');
         if($oidser == null) {
             $oidser = $_POST['oidser'];
         }
         $data['lst'] = $this -> MPanel -> consultarGaleriaSerie($oidser);
         $data ['slider'] = true;
+        if($descrip != null)$data ['descrip'] = true;
 
         $this->load->view ( 'principal2/incluir/head' );
         $this->load->view ( 'principal2/incluir/cab',$data );
@@ -176,10 +177,14 @@ class Principal2 extends CI_Controller {
      * funciones de turismo para todos
      */
     function turismo(){
+        $this -> load -> model('panel/mpanel', 'MPanel');
+        $data['hotel'] = $this ->MPanel -> consultarServiciosCat(1);
+        $data['posada'] = $this ->MPanel -> consultarServiciosCat(2);
+        $data['rest'] = $this ->MPanel -> consultarServiciosCat(3);
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
         $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/turismo' );
+        $this->load->view ( 'principal2/turismo',$data );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
