@@ -1,3 +1,4 @@
+<?php if(!isset($formulario)){?>
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
@@ -18,7 +19,7 @@
                         <h3>Archivo Municipal</h3>
 
                         <div class="read_more">
-                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/archivo"); ?>">ver
+                            <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerencias/archivo"); ?>">ver
                                 mas</a>
                         </div>
                     </div>
@@ -30,7 +31,7 @@
                         <h3>Auditoria Interna</h3>
 
                         <div class="read_more">
-                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/auditoria"); ?>">ver mas</a>
+                            <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/auditoria"); ?>">ver mas</a>
                         </div>
                     </div>
                 </div>
@@ -304,3 +305,6 @@
         </div>
     </div>
 </div>
+<?php }else{
+    $this->load->view ( 'principal2/alcaldia/'.$formulario );
+}

@@ -201,24 +201,9 @@ class Principal2 extends CI_Controller {
     function gerencias($formulario=null){
         $this->load->view ( 'principal2/incluir/head' );
         $data['slider'] = true;
+        if($formulario != null) $data['formulario'] = $formulario;
         $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/gerencias' );
-        $this->load->view ( 'principal2/incluir/pie' );
-    }
-
-    function archivo(){
-        $this->load->view ( 'principal2/incluir/head' );
-        $data['slider'] = true;
-        $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/alcaldia/archivo' );
-        $this->load->view ( 'principal2/incluir/pie' );
-    }
-
-    function auditoria(){
-        $this->load->view ( 'principal2/incluir/head' );
-        $data['slider'] = true;
-        $this->load->view ( 'principal2/incluir/cab',$data );
-        $this->load->view ( 'principal2/alcaldia/auditoria' );
+        $this->load->view ( 'principal2/gerencias',$data );
         $this->load->view ( 'principal2/incluir/pie' );
     }
 
