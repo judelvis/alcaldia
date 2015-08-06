@@ -70,43 +70,35 @@
             <div class="col-md-4 span1_of_3">
                 <h4>Hoteles</h4>
                 <ul class="list-unstyled nav_list">
-                    <?php if(count($hotel)!=0){
-                        foreach($lst as $ls){
-                            echo '<li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>';
+                    <?php if($hotel!=0){
+                        foreach($hotel as $ls){
+                            echo '<li><a href="'.site_url("principal2/mostrarServicio/".$ls->oidser."/1").'">'.$ls->nombre.'</a></li>';
                         }
                     }
                     ?>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
-                    <li><a href="#">Mauris dictum neque ornare nibh feugiat</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
                 </ul>
             </div>
             <div class="col-md-4 span1_of_3">
                 <h4>Posadas</h4>
                 <ul class="list-unstyled nav_list">
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
-                    <li><a href="#">Mauris dictum neque ornare nibh feugiat</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
+                    <?php if($posada!=0){
+                        echo $posada;
+                        foreach($posada as $ls){
+                            echo '<li><a href="'.site_url("principal2/mostrarServicio/".$ls->oidser."/1").'">'.$ls->nombre.'</a></li>';
+                        }
+                    }
+                    ?>
                 </ul>
             </div>
             <div class="col-md-4 span1_of_3">
                 <h4>Restaurante</h4>
                 <ul class="list-unstyled nav_list">
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
-                    <li><a href="#">Mauris dictum neque ornare nibh feugiat</a></li>
-                    <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                    <li><a href="#">Nullam nec sapien eget metus</a></li>
-                    <li><a href="#">Curabitur pellentesque mauris tempor </a></li>
+                    <?php if($rest!=0){
+                        foreach($rest as $ls){
+                            echo '<li><a href="'.site_url("principal2/mostrarServicio/".$ls->oidser."/1").'">'.$ls->nombre.'</a></li>';
+                        }
+                    }
+                    ?>
                 </ul>
             </div>
             <div class="clearfix"></div>
