@@ -2,8 +2,12 @@
     <div class="container">
         <div class="main_grid">
             <div class="top_grid"><!-- start top_grid -->
-                <div class="col-md-12 span1_of_1">
-                    <center><h1>Municipio Campo Elías tierra del dulce aroma de la caña</h1></center>
+                <div class="col-md-4 span1_of_1">
+                    <a href="#!"><img src="<?php echo __MAQ2__;?>images/logo_alcaldia.png" alt="" class="img-responsive"/></a>
+                </div>
+                <div class="col-md-8 span1_of_1">
+                    <h2>Alcaldia Del Municipio Campo Elías</h2>
+                    <h3>Trabajo y Compromiso</h3>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -43,19 +47,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 span1_of_4">
-                    <div class="span4_of_list">
-                        <span><i class="fa fa-picture-o"></i></span>
-
-                        <h3>Turismo para todos</h3>
-
-                        <div class="read_more">
-                            <a class="btn btn-2b" href="<?php echo site_url("principal2/turismo");?>">ver mas</a>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="clearfix"></div>
             </div>
             <!-- end span_of_4 -->
@@ -63,11 +54,32 @@
     </div>
 </div>
 
+<div class="cau_hide">
+    <div class="cursual"><!--  start cursual  -->
+        <h4>Noticias<span class="line"></span></h4>
+    </div>
+    <div id="owl-demo" class="owl-carousel"><!----start-img-cursual---->
+        <?php
+        foreach($lst as $ls){
+            echo '
+                <div class="item">
+                    <div class="cau_left">
+                        <img class="lazyOwl" data-src="'.__IMG__.'noticia/medio/'.$ls->imagen.'" alt="'.$ls ->titulo.'">
+                    </div>
+                    <h3>'.$ls ->titulo.'</h3>
+                </div>
+            ';
+        }
+        ?>
+    </div>
+    <!----//End-img-cursual---->
+</div>
+
 
 <div class="main1_bg"><!-- start main1 -->
     <div class="container">
         <div class="main slider_text texxt-center">
-            <h4>Trabajo y compromiso</h4>
+            <h4>Municipio Campo Elías tierra del dulce aroma de la caña </h4>
         </div>
     </div>
     <!-- start banner -->
@@ -77,7 +89,7 @@
                 <div class="myloader"></div>
                 <!-- CONTENT -->
                 <ul class="allinone_carousel_list">
-                    <?php for($i=1;$i<=9;$i++){
+                    <?php for($i=1;$i<=7;$i++){
                         echo'
                             <li><img src="'.__IMG__.'pr'.$i.'.jpg" alt="" class="img-responsive"/></li>
                         ';
@@ -88,41 +100,6 @@
         </div>
     </div>
     <!-- end banner -->
-    <div class="container">
-        <div class="main span_of_3">
-            <div class="col-md-3 span1_of_3">
-                <h4>Ejido</h4>
-
-                <div class="clients">
-                    <p>Buenaventura de Bustos Bosquero fue el capitán que fundó Ejido el 14 de julio 1650, para este siglo la zona era conocida con el nombre de San Buenaventura de Ejido ...</p>
-                </div>
-
-            </div>
-            <div class="col-md-6 span1_of_3">
-                <h5>Contenido. </h5>
-                <!-- start circle -->
-
-                <!-- end circle -->
-            </div>
-            <div class="col-md-3 span1_of_3">
-                <h4>Escudo</h4>
-
-                <div class="clients">
-                    <p>Este escudo fue diseñado por Armando Picón, según los datos y sugerencias aportados por Ramón Díaz Suárez y Pedro Tablante... </p>
-                </div>
-
-            </div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="cau_hide">
-            <div class="cursual"><!--  start cursual  -->
-                <h4><span class="line"></span></h4>
-            </div>
-
-
-            <!----//End-img-cursual---->
-        </div>
-    </div>
 </div>
 
 <div class="main_btm1"><!-- start main_btm -->
