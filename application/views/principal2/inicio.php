@@ -60,13 +60,15 @@
     </div>
     <div id="owl-demo" class="owl-carousel"><!----start-img-cursual---->
         <?php
+        //print("<pre>");
+        //print_r($lst);
         foreach($lst as $ls){
             echo '
                 <div class="item">
                     <div class="cau_left">
-                        <img class="lazyOwl" data-src="'.__IMG__.'noticia/medio/'.$ls->imagen.'" alt="'.$ls ->titulo.'">
+                        <img class="lazyOwl" data-src="'.__MAQ2__.'images/c1.png" alt="'.$ls ->oid.'">
                     </div>
-                    <h3>'.$ls ->titulo.'</h3>
+                    <h4>'.$ls ->oid.'</h4>
                 </div>
             ';
         }
