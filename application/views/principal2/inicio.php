@@ -54,27 +54,39 @@
     </div>
 </div>
 
-<div class="cau_hide">
-    <div class="cursual"><!--  start cursual  -->
-        <h4>Noticias<span class="line"></span></h4>
-    </div>
-    <div id="owl-demo" class="owl-carousel"><!----start-img-cursual---->
+<div class="main_btm1" id="noticias">
+    <div class="container">
+        <div class="title">
+            <h1>Noticias</h1>
+        </div>
+        <div class="main_grid">
         <?php
-        //print("<pre>");
-        //print_r($lst);
-        foreach($lst as $ls){
-            echo '
-                <div class="item">
-                    <div class="cau_left">
-                        <img class="lazyOwl" data-src="'.__MAQ2__.'images/c1.png" alt="'.$ls ->oid.'">
+        if ($lst != 0) {
+            $i = 0;
+            foreach ($lst as $ls) {
+                if($i == 0) echo '<div class="row-fluid team">';
+                $i++;
+                echo '
+                <div class="col-md-3 span1_of_4" id="noticia_'.$ls->oid.'">
+                <div class="thumbnail" style="height:300px;">
+                    <img src="'.__IMG__.'noticia/medio/'.$ls->imagen.'" alt="team 1">
+                    <h3>'.$ls->titulo.'</h3>
+                    <div class="mask">
+                        <a href="'.site_url("principal2/verNoticia/$ls->oid").'">
+                           <h2><span >LEER</span></h2>
+                        </a>
                     </div>
-                    <h4>'.$ls ->oid.'</h4>
                 </div>
-            ';
+            </div>
+        ';
+                if($i== 4) {
+                    echo '</div>';
+                    break;
+                }
+            }
         }
-        ?>
+        ?></div>
     </div>
-    <!----//End-img-cursual---->
 </div>
 
 
