@@ -1,7 +1,7 @@
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
-            <h3 class="style pull-left">Secretaría Ejecutiva</h3>
+            <h3 class="style pull-left">Departamento de Servicios Administrativos</h3>
 
             <div class="clearfix"></div>
         </div>
@@ -18,20 +18,7 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-                <div class="main_bg"><!-- start main -->
-                    <div class="container">
-                        <div class="main_grid1">
-                            <h3 class="style pull-left">Secretaría Ejecutiva</h3>
 
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 blog_left">
-                    <p class="para">La Secretaría Ejecutiva es una Unidad de Apoyo Administrativo y está adscrita al
-                        Gerente General.</p>
-                </div>
-                <div class="clearfix"></div>
                 <div class="main_bg"><!-- start main -->
                     <div class="container">
                         <div class="main_grid1">
@@ -45,8 +32,7 @@
                     <p class="para">
 
                     <div class="col-md-12 blog_left">
-                        <p class="para">La Secretaría Ejecutiva es una Unidad de Apoyo Administrativo y está adscrita al
-                            Gerente General.</p>
+                        <p class="para">Garantizar que las diversas transacciones financieras que realiza la Alcaldía  cumplan con los principios y normas administrativas, contables y tributarias.</p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -62,18 +48,11 @@
                 </div>
                 <div class="col-md-12 span1_of_3">
                     <ul class="list-unstyled nav_list">
-                        <li><a href="#!"> 1.- Prestar el apoyo técnico y administrativo al Gerente General y al Alcalde (de ser necesario).</a></li>
-                        <li><a href="#!"> 2.- Elaborar la programación de entrega de los informes de la Memoria y Cuenta de las dependencias de la Alcaldía, así  como verificar la información presentada y emitir sugerencias o recomendaciones en caso de ser necesario a cada unidad.</a></li>
-                        <li><a href="#!"> 3.- Programar de común acuerdo con el Gerente General  las reuniones de trabajo.</a></li>
-                        <li><a href="#!"> 4.- Emitir opinión en aquellos asuntos que le sean sometidos a su consideración por el Gerente General.</a></li>
-                        <li><a href="#!"> 5.- Atender a aquellos visitantes que requieran mantener una audiencia programada o no programada , con el Gerente General o en su defecto, con el Alcalde.</a></li>
-                        <li><a href="#!"> 6.- Asistir a reuniones por indicación del Gerente General o el  Alcalde y levantar el acta respectiva (de ser el caso).</a></li>
-                        <li><a href="#!"> 7.- Gestionar la solicitud de audiencias o reuniones del Gerente General con organismos públicos o privados o con personalidades.</a></li>
-                        <li><a href="#!"> 8.- Participar, de ser requerido, en la organización de eventos: talleres, seminarios, conferencias.</a></li>
-                        <li><a href="#!"> 9.- Organizar, por instrucciones del Gerente General, eventos  sociales relacionados con las actividades de la unidad.</a></li>
-                        <li><a href="#!"> 10.- Aquellas que le asigne el Gerente General o las que deriven por el cumplimiento de sus funciones.</a></li>
-
-
+                        <li><a href="#!"> 1.- Recibir, conformar y tramitar las solicitudes de pago con su documentación correspondiente.</a></li>
+                        <li><a href="#!"> 2.- Realizar el control previo de las transacciones u operaciones, verificando la disponibilidad presupuestaria, la legalidad, veracidad y sinceridad del gasto.</a></li>
+                        <li><a href="#!"> 3.- Elaborar las órdenes de pago una vez efectuado el control previo.</a></li>
+                        <li><a href="#!"> 4.- Calcular las retenciones debidas por concepto de valor agregado (IVA)  e Impuesto sobre la Renta (ISLR).</a></li>
+                        <li><a href="#!"> 5.- Registrar en orden correlativo las órdenes de pago.</a></li>
                     </ul>
                 </div>
 

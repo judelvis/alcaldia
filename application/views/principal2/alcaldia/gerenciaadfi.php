@@ -11,6 +11,7 @@
         $("#btn" + id).show();
     }
 </script>
+
 <div class="main_bg"><!-- start main -->
     <div class="container">
         <div class="main_grid1">
@@ -145,7 +146,7 @@
                             <h3>Departamento de Compras y Suministros.</h3>
 
                             <div class="read_more">
-                                <a class="btn btn-2 active" href="<?php echo site_url("principal2/gerencias/archivo"); ?>">ver
+                                <a class="btn btn-2 active" href="<?php echo site_url("principal2/suministros"); ?>">ver
                                     mas</a>
                             </div>
                         </div>
@@ -157,7 +158,7 @@
                             <h3>Departamento d e Servicios Administrativos</h3>
 
                             <div class="read_more">
-                                <a class="btn  btn-2b" href="<?php echo site_url("principal2/gerencias/auditoria"); ?>">ver mas</a>
+                                <a class="btn  btn-2b" href="<?php echo site_url("principal2/administrativo"); ?>">ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +169,7 @@
                             <h3>Departamento de Tesorería.</h3>
                             <br>
                             <div class="read_more">
-                                <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/atencion"); ?>">ver mas</a>
+                                <a class="btn btn-2b" href="<?php echo site_url("principal2/tesoreria"); ?>">ver mas</a>
                             </div>
                         </div>
                     </div>
@@ -179,7 +180,7 @@
                             <h3>Departamento de Contabilidad</h3>
                             <br>
                             <div class="read_more">
-                                <a class="btn btn-2b" href="<?php echo site_url("principal2/gerencias/gerenciageral"); ?>">ver mas</a>
+                                <a class="btn btn-2b" href="<?php echo site_url("principal2/contabilidad"); ?>">ver mas</a>
                             </div>
                         </div>
                     </div>

@@ -129,10 +129,10 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
-                    <div class="col-md-12 blog_left">
-                        <p class="para">La Gerencia de Cultura está constituida en una sola unidad administrativa,
-                            conformada por:</p>
-                    </div>
+                </div>
+                <div class="col-md-12 blog_left">
+                    <p class="para">La Gerencia de Cultura está constituida en una sola unidad administrativa,
+                        conformada por:</p>
                 </div>
                 <div class="col-md-12 span1_of_3">
                     <ul class="list-unstyled nav_list">

@@ -19,7 +19,7 @@
             <h3>Instituto de la vivienda</h3>
 
             <p>Requisitos para tramites del instituto</p>
-
+<br><br>
             <div class="read_more">
                 <a class="btn  btn-2b" href="single-page.html">ver mas</a>
             </div>
@@ -32,7 +32,7 @@
             <h3>Samatce</h3>
 
             <p>Requisitos para realizar tramites ante el Samatce.</p>
-
+            <br><br><br>
             <div class="read_more">
                 <a class="btn btn-2b" href="single-page.html">Descargar</a>
             </div>
@@ -45,7 +45,7 @@
             <h3>Registro</h3>
 
             <p>.....?</p>
-
+            <br><br><br><br>
             <div class="read_more">
                 <a class="btn btn-2b" href="single-page.html">Registrate</a>
             </div>

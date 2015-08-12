@@ -212,7 +212,46 @@ class Principal2 extends CI_Controller {
         $this->load->view ( 'principal2/gerencias',$data );
         $this->load->view ( 'principal2/incluir/pie' );
     }
+    //Departamento de Administracion y Finanzas
+    function suministros(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/suministros' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
 
+    function administrativo(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/administrativo' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+
+    function tesoreria(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/tesoreria' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+    function contabilidad(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/contabilidad' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
+    //fin de Departamento de Administracion y Finanzas
+
+    function talleres(){
+        $this->load->view ( 'principal2/incluir/head' );
+        $data['slider'] = true;
+        $this->load->view ( 'principal2/incluir/cab',$data );
+        $this->load->view ( 'principal2/alcaldia/talleres' );
+        $this->load->view ( 'principal2/incluir/pie' );
+    }
 
     function tramites(){
         $this->load->view ( 'principal2/incluir/head' );
