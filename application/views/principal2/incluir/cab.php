@@ -1,54 +1,48 @@
 <body>
-<div class="header_bg">
-    <div class="container">
-        <!-- inicio header-->
-        <div class="header">
-            <div class="logo">
-                <img src="<?php echo  __MAQ2__;?>images/logo.png" alt=""/>
-            </div>
-            <div class="h_menu">
-                <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
-                <nav>
-                    <ul class="menu list-unstyled">
-                        <li class="activate"><a href="<?php echo site_url("principal2");?>">INICIO</a></li>
-                        <li><a href="#">MUNICIPIO</a>
-                            <ul class="sub-menu list-unstyled">
-                                <li><a href="<?php echo site_url("principal2/ubicacion");?>">Ubicacion</a></li>
-                                <li><a href="<?php echo site_url("principal2/capital");?>">Capital</a></li>
-                                <li><a href="<?php echo site_url("principal2/simbolos");?>">Simbolos</a></li>
-                                <li><a href="<?php echo site_url("principal2/parroquias");?>">Parroquias</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="<?php echo site_url("principal2/noticias");?>">NOTICIAS</a></li>
-                        <li><a href="#">GOBIERNO MUNICIPAL</a>
-                            <ul class="sub-menu list-unstyled">
-                                <li>
-                                    <a href="#">Alcalde</a>
-                                    <ul class="list-unstyled">
-                                        <li><a href="<?php echo site_url("principal2/biografia");?>">Biografía</a></li>
-                                        <li><a href="<?php echo site_url("principal2/planGob");?>">Plan de Gobierno</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Alcaldia</a>
-                                    <ul class="sub-menu list-unstyled">
-                                        <li><a href="<?php echo site_url("principal2/concurso");?>">Concurso y lisitaciones</a></li>
-                                        <li><a href="<?php echo site_url("principal2/gerencias");?>">Gerencias</a></li>
-                                        <li><a href="<?php echo site_url("principal2/institutos");?>">Institutos Autonomos</a></li>
-                                        <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Ordenanzas y Decretos</a></li>
-                                        <li><a href="<?php echo site_url("principal2/tramites");?>">Tramites y Servicios</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <!--<li><a href="blog.html">BLOG</a></li>-->
-                        <li><a href="feature.html">CONVENIOS</a></li>
-                    </ul>
-                </nav>
-                <script src="<?php echo __MAQ2__?>js/menu.js" type="text/javascript"></script>
-            </div>
-            <div class="clearfix"></div>
-        </div>  <!-- fin header-->
+<div class="header_img">
+</div>
+<div class="h_menu">
+    <div class="logo" style="padding: 2px;">
+        <img src="<?php echo __MAQ2__?>images/logo.png">
     </div>
+    <a id="touch-menu" class="mobile-menu" href="#">Menu</a>
+    <nav>
+        <ul class="menu list-unstyled">
+            <li class="activate"><a href="<?php echo site_url("principal2");?>">INICIO</a></li>
+            <li><a href="#">MUNICIPIO</a>
+                <ul class="sub-menu list-unstyled">
+                    <li><a href="<?php echo site_url("principal2/ubicacion");?>">Ubicacion</a></li>
+                    <li><a href="<?php echo site_url("principal2/capital");?>">Capital</a></li>
+                    <li><a href="<?php echo site_url("principal2/simbolos");?>">Simbolos</a></li>
+                    <li><a href="<?php echo site_url("principal2/parroquias");?>">Parroquias</a></li>
+                </ul>
+            </li>
+            <li><a href="<?php echo site_url("principal2/noticias");?>">NOTICIAS</a></li>
+            <li><a href="#">GOBIERNO MUNICIPAL</a>
+                <ul class="sub-menu list-unstyled">
+                    <li>
+                        <a href="#">Alcalde</a>
+                        <ul class="list-unstyled">
+                            <li><a href="<?php echo site_url("principal2/biografia");?>">Biografía</a></li>
+                            <li><a href="<?php echo site_url("principal2/planGob");?>">Plan de Gobierno</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Alcaldia</a>
+                        <ul class="sub-menu list-unstyled">
+                            <li><a href="<?php echo site_url("principal2/concurso");?>">Concurso y lisitaciones</a></li>
+                            <li><a href="<?php echo site_url("principal2/gerencias");?>">Gerencias</a></li>
+                            <li><a href="<?php echo site_url("principal2/institutos");?>">Institutos Autonomos</a></li>
+                            <li><a href="<?php echo site_url("principal2/ordenanzas");?>">Ordenanzas y Decretos</a></li>
+                            <li><a href="<?php echo site_url("principal2/tramites");?>">Tramites y Servicios</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <!--<li><a href="blog.html">BLOG</a></li>-->
+            <li><a href="feature.html">CONVENIOS</a></li>
+        </ul>
+    </nav>
+    <script src="<?php echo __MAQ2__?>js/menu.js" type="text/javascript"></script>
 </div>
 <?php if(isset($slider)){?>
 <div id="fwslider"><!-- start slider -->
