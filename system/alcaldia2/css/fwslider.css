@@ -1,10 +1,12 @@
 /* ------------------------------- 3. Slider Styles ------------------------------- */
-
 #fwslider {
     position: relative;
     width:80%;
     margin: 0px auto;
     font-family: 'roboto_condensedregular';
+    top:10%;
+    z-index:-2;
+    background: transparent;
 }
 
 #fwslider .slide {

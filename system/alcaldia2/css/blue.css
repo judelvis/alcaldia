@@ -13,33 +13,67 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 body {
     font-family: 'roboto_condensedregular';
-	background:#ffffff;
-	font-size: 100%;
+    background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #76C7C0),
+            color-stop(0.1, #FFFFFF)
+    );
+    background-image: -o-linear-gradient(bottom, #76C7C0 0%, #FFFFFF 10%);
+    background-image: -moz-linear-gradient(bottom, #76C7C0 0%, #FFFFFF 10%);
+    background-image: -webkit-linear-gradient(bottom, #76C7C0 0%, #FFFFFF 10%);
+    background-image: -ms-linear-gradient(bottom, #76C7C0 0%, #FFFFFF 10%);
+    background-image: linear-gradient(to bottom, #76C7C0 0%, #FFFFFF 10%);
+    font-size: 100%;
 }
 .header_bg{
-	background: #76C7C0;
+    background: #76C7C0;
+    opacity:0.6;
+    filter:alpha(opacity=60);
 }
-.header{
-	padding: 4% 0;
+.header_img{
+    position:absolute;
+    float:left;
+    width: 100%;
+    height:27%;
+    background-image: url('../images/cabezaa.png');
+    -webkit-background-size: 100% 100%;           /* Safari 3.0 */
+    -moz-background-size: 100% 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%;           /* Opera 9.5 */
+    background-size: 100% 100%;           /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+    -moz-border-image: url('../images/cabezaa.png') 0;    /* Gecko 1.9.1 (Firefox 3.5) */
+    z-index:-1;
+    opacity:0.5;
+    filter:alpha(opacity=50);
+    margin: 0px;
+    padding: 0px;
 }
 .logo{
-	margin-top: 10px;
-	float: left;
+    margin-top: 10px;
+    float: left;
 }
 /* start h_menu */
 .h_menu{
-	float: right;
+    float: right;
+    width: 100%;
+    z-index: 1000;
+    /*	background: #76C7C0;
+    opacity:0.8;
+    filter:alpha(opacity=80);*/
 }
 nav{
 	display:block;
 }
 .menu{
-	display:block;
+    display:block;
+    float: left;
+    margin-left:10%;
 }
 .menu li{
-	display:inline-block;
-	position:relative;
-	z-index:100;
+    display:inline-block;
+    position:relative;
+    z-index:100;
 }
 .menu li:first-child{margin-left:0;}
 .menu li.activate a,.menu li a:hover{
@@ -145,6 +179,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 /* start mian */
 .main_bg{
 	background: #F3F3F3;
+    top: 20%;
 }
 .main_grid{
 	padding: 4% 0;
