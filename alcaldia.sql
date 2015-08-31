@@ -3,7 +3,7 @@
 -- Server version:               5.5.37-0ubuntu0.13.10.1 - (Ubuntu)
 -- Server OS:                    debian-linux-gnu
 -- HeidiSQL version:             7.0.0.4053
--- Date/time:                    2015-08-05 17:46:13
+-- Date/time:                    2015-08-31 11:08:11
 -- --------------------------------------------------------
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -126,7 +126,7 @@ CREATE TABLE IF NOT EXISTS `servicio` (
   KEY `oidcat` (`oidcat`)
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
--- Dumping data for table alcaldia.servicio: ~11 rows (approximately)
+-- Dumping data for table alcaldia.servicio: ~13 rows (approximately)
 /*!40000 ALTER TABLE `servicio` DISABLE KEYS */;
 INSERT INTO `servicio` (`id`, `oidcat`, `nombre`, `descrip`, `fecha`, `modificado`, `estatus`) VALUES
 	(1, 1, 'Venezuela de Antier', 'Este parque temático tardó tres años en ser construido, fue el 31 de julio de 1991, cuando su propietario Alexis Montilla abrió sus puertas al público,  La Venezuela de Antier es un  atractivo turístico que rememora lo que fue la Venezuela de los años 30. Durante el recorrido podrán conocer representaciones de varios estados del país y observar shows artísticos que recuerdan la época en la que el país era gobernado por la férrea dictadura del general Juan Vicente Gómez. Cada estado cuenta con una infraestructura distinta, adaptada a los primeros años del siglo XX donde encontrarán personajes, objetos, música y representaciones artísticas tradicionales de lo que fue Venezuela hace un siglo.  Una gran colección de vehículos antiguos, documentos, vestuarios y retratos forman parte de este parque que permite a Venezolanos y extranjeros viajar en el tiempo.', '0000-00-00', '2015-08-04 13:45:51', 0),
